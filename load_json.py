@@ -28,8 +28,7 @@ def load_response():
         print('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
         return response
     except Exception as e:
-        print(e)
-        print('json load failed, waiting for around 15 seconds')
+        print('json load failed {}, waiting for around 15 seconds'.format(e))
         time.sleep(15 + 5 * random.random())
         return load_response()
 
@@ -46,7 +45,7 @@ def write_json(file_name, js):
 
 class Data(object):
     def __init__(self):
-        self.response = load_response()
+        self.response = None
         self.provinces = []
         self.time_stamp = 0
         self.suspect = 0
@@ -54,6 +53,7 @@ class Data(object):
         self.cured = 0
         self.dead = 0
         self.data_dict = {}
+        self.diff_dict = {}
         self.init()
 
     def load_stat(self, area_stat):
@@ -61,35 +61,54 @@ class Data(object):
 
     def init(self):
         try:
-            self.provinces = self.load_stat(self.response['data']['listByArea'])
-            self.time_stamp = time.time()
-            self.suspect = 0
-            self.confirmed = 0
-            self.cured = 0
-            self.dead = 0
-            self.data_dict = {}
-            for province in self.provinces:
-                self.suspect += province.suspect
-                self.confirmed += province.confirmed
-                self.cured += province.cured
-                self.dead += province.dead
-                self.data_dict[province.name] = [province.suspect, province.confirmed, province.cured, province.dead]
-                for city in province.cities:
-                    self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
             latest_response = load_json()
-            if latest_response['data']['listByArea'] != self.response['data']['listByArea']:
-                write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
-                write_json('./jsons/latest.json', self.response)
+            if self.response and latest_response['data']['listByArea'] == self.response['data']['listByArea']:
+                return False
+            else:
+                old_dict = self.data_dict
+                self.response = latest_response
+                self.provinces = self.load_stat(self.response['data']['listByArea'])
+                self.time_stamp = time.time()
+                self.suspect = 0
+                self.confirmed = 0
+                self.cured = 0
+                self.dead = 0
+                self.data_dict = {}
+                for province in self.provinces:
+                    self.suspect += province.suspect
+                    self.confirmed += province.confirmed
+                    self.cured += province.cured
+                    self.dead += province.dead
+                    self.data_dict[province.name] = \
+                        [province.suspect, province.confirmed, province.cured, province.dead]
+                    for city in province.cities:
+                        self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
+                self.diff_dict = {k: v for k, v in self.data_dict.items() if k not in old_dict or old_dict[k] != v}
+                print('data constructed')
+                return True
         except Exception as e:
-            print(e)
-            print('data construction failed')
+            print('data construction failed {}'.format(e))
             time.sleep(15 + 10 * random.random())
             self.init()
 
-    def update(self):
-        self.response = load_response()
-        self.init()
-        print('data updated at {}'.format(data.time_stamp))
+    def update(self, *funcs_to_call):
+        ret = self.init()
+        if ret:
+            print('data updated at {}'.format(data.time_stamp))
+            self.on_update(funcs_to_call)
+
+    def on_update(self, *funcs_to_call):
+        write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
+        write_json('./jsons/latest.json', self.response)
+        for func in funcs_to_call:
+            try:
+                func()
+            except Exception as e:
+                print('calling {} failed {}'.format(func, e))
+
+
+def p():
+    print(0)
 
 
 class Province(object):
@@ -123,4 +142,4 @@ if __name__ == "__main__":
         time.sleep(45 + 30 * random.random())
         response = load_response()
         if response['data']['listByArea'] != data.response['data']['listByArea']:
-            data.update()
+            data.update([p])
