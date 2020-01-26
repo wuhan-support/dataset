@@ -26,13 +26,10 @@ def load_response():
         api = 'https://service-f9fjwngp-1252021671.bj.apigw.tencentcs.com/release/pneumonia'
         response = json.loads(requests.get(api, headers=headers).text)
         if not response['data']['listByArea']:
-
             raise Exception(response)
-        print('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+        ls.logging.info('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
         return response
     except Exception as e:
-        print(e)
-        print(JSON_LOAD_FAILED)
         ls.logging.exception(e)
         ls.logging.error(JSON_LOAD_FAILED)
         time.sleep(15 + 5 * random.random())
@@ -86,8 +83,7 @@ class Data(object):
                 write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
                 write_json('./jsons/latest.json', self.response)
         except Exception as e:
-            print(e)
-            print('data construction failed')
+            ls.logging.error('data construction failed')
             ls.logging.exception(e)
             time.sleep(15 + 10 * random.random())
             self.init()
@@ -96,7 +92,6 @@ class Data(object):
         self.response = load_response()
         self.init()
         ls.logging.info('data updated at {}'.format(data.time_stamp))
-        print('data updated at {}'.format(data.time_stamp))
 
 
 class Province(object):

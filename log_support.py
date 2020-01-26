@@ -12,7 +12,7 @@ class LogSupport(object):
         self.logging_info("-init logging module success")
 
     def init_log(self):
-        logging_dir = os.path.join(BASE_DIR, "log/")
+        logging_dir = os.path.join(BASE_DIR, "logs/")
         if self.debug:
             print("logging_dir:", logging_dir)
         check_dir_exist(logging_dir)

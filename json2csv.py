@@ -15,6 +15,7 @@ def timechange(timestamp):
 
 def save_csv_area(filename):
     f = open("jsons/%s"%filename,'r',encoding='utf-8')
+
     time=timechange(filename)
     for line in f.readlines():
         dic=json.loads(line)
@@ -50,8 +51,9 @@ if __name__ == '__main__':
         a=i.split('_')[ 1 ]
         list.append(a.split('.')[0])
     for i in os.listdir('jsons/'):
-        j=timechange(i)
-        if j in list:
-            pass
-        else:
-            save_csv_area(i)
+        if i.split('.')[0]!='latest':
+            j=timechange(i)
+            if j in list:
+                pass
+            else:
+                save_csv_area(i)
