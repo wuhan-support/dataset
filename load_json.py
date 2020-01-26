@@ -1,10 +1,11 @@
 import json
 import random
 import time
-
 import requests
+from log_support import LogSupport
 
-
+# 初始化日志
+ls = LogSupport()
 def load_response():
     try:
         headers = {
@@ -25,10 +26,11 @@ def load_response():
         response = json.loads(requests.get(api, headers=headers).text)
         if not response['data']['listByArea']:
             raise Exception(response)
-        print('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+        ls.logging.info('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
         return response
     except Exception as e:
-        print('json load failed {}, waiting for around 15 seconds'.format(e))
+        ls.logging.error('json load failed, waiting for around 15 seconds')
+        ls.logging.exception(e)
         time.sleep(15 + 5 * random.random())
         return load_response()
 
@@ -85,17 +87,18 @@ class Data(object):
                     for city in province.cities:
                         self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
                 self.diff_dict = {k: v for k, v in self.data_dict.items() if k not in old_dict or old_dict[k] != v}
-                print('data constructed')
+                ls.logging.info('data constructed')
                 return True
         except Exception as e:
-            print('data construction failed {}'.format(e))
+            ls.logging.error('data construction failed')
+            ls.logging.exception(e)
             time.sleep(15 + 10 * random.random())
             self.init()
 
     def update(self):
         ret = self.init()
         if ret:
-            print('data updated at {}'.format(self.time_stamp))
+            ls.logging.info('data updated at {}'.format(data.time_stamp))
             self.on_update()
 
     def on_update(self):
@@ -105,12 +108,12 @@ class Data(object):
             try:
                 func()
             except Exception as e:
-                print('calling {} failed {}'.format(func, e))
+                ls.logging.error('calling {} failed'.format(func))
+                ls.logging.exception(e)
 
 
 def p():
     print(0)
-
 
 class Province(object):
     def __init__(self, province_stat):
@@ -138,7 +141,6 @@ class City(object):
 
 if __name__ == "__main__":
     data = Data(p)
-
     while True:
         time.sleep(45 + 30 * random.random())
         response = load_response()
