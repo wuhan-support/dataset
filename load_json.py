@@ -48,7 +48,7 @@ def write_json(file_name, js):
 
 class Data(object):
     def __init__(self):
-        self.response = load_response()
+        self.response = None
         self.provinces = []
         self.time_stamp = 0
         self.suspect = 0
@@ -56,6 +56,7 @@ class Data(object):
         self.cured = 0
         self.dead = 0
         self.data_dict = {}
+        self.diff_dict = {}
         self.init()
 
     def load_stat(self, area_stat):
@@ -63,25 +64,31 @@ class Data(object):
 
     def init(self):
         try:
-            self.provinces = self.load_stat(self.response['data']['listByArea'])
-            self.time_stamp = time.time()
-            self.suspect = 0
-            self.confirmed = 0
-            self.cured = 0
-            self.dead = 0
-            self.data_dict = {}
-            for province in self.provinces:
-                self.suspect += province.suspect
-                self.confirmed += province.confirmed
-                self.cured += province.cured
-                self.dead += province.dead
-                self.data_dict[province.name] = [province.suspect, province.confirmed, province.cured, province.dead]
-                for city in province.cities:
-                    self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
             latest_response = load_json()
-            if latest_response['data']['listByArea'] != self.response['data']['listByArea']:
-                write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
-                write_json('./jsons/latest.json', self.response)
+            if self.response and latest_response['data']['listByArea'] == self.response['data']['listByArea']:
+                return False
+            else:
+                old_dict = self.data_dict
+                self.response = latest_response
+                self.provinces = self.load_stat(self.response['data']['listByArea'])
+                self.time_stamp = time.time()
+                self.suspect = 0
+                self.confirmed = 0
+                self.cured = 0
+                self.dead = 0
+                self.data_dict = {}
+                for province in self.provinces:
+                    self.suspect += province.suspect
+                    self.confirmed += province.confirmed
+                    self.cured += province.cured
+                    self.dead += province.dead
+                    self.data_dict[province.name] = \
+                        [province.suspect, province.confirmed, province.cured, province.dead]
+                    for city in province.cities:
+                        self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
+                self.diff_dict = {k: v for k, v in self.data_dict.items() if k not in old_dict or old_dict[k] != v}
+                ls.logging.info('data constructed')
+                return True
         except Exception as e:
             ls.logging.error('data construction failed')
             ls.logging.exception(e)
@@ -108,6 +115,8 @@ class Province(object):
     def load_stat(self, province_stat_cities):
         return [City(city_stat) for city_stat in province_stat_cities]
 
+def p():
+    print(0)
 
 class City(object):
     def __init__(self, city_stat):
@@ -124,4 +133,4 @@ if __name__ == "__main__":
         time.sleep(45 + 30 * random.random())
         response = load_response()
         if response['data']['listByArea'] != data.response['data']['listByArea']:
-            data.update()
+            data.update([p])
