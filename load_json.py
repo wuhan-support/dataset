@@ -1,10 +1,12 @@
 import json
 import random
 import time
-
 import requests
+from constant import JSON_LOAD_FAILED
+from log_support import LogSupport
 
-
+# 初始化日志
+ls = LogSupport()
 def load_response():
     try:
         headers = {
@@ -24,12 +26,15 @@ def load_response():
         api = 'https://service-f9fjwngp-1252021671.bj.apigw.tencentcs.com/release/pneumonia'
         response = json.loads(requests.get(api, headers=headers).text)
         if not response['data']['listByArea']:
+
             raise Exception(response)
         print('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
         return response
     except Exception as e:
         print(e)
-        print('json load failed, waiting for around 15 seconds')
+        print(JSON_LOAD_FAILED)
+        ls.logging.exception(e)
+        ls.logging.error(JSON_LOAD_FAILED)
         time.sleep(15 + 5 * random.random())
         return load_response()
 
@@ -83,12 +88,14 @@ class Data(object):
         except Exception as e:
             print(e)
             print('data construction failed')
+            ls.logging.exception(e)
             time.sleep(15 + 10 * random.random())
             self.init()
 
     def update(self):
         self.response = load_response()
         self.init()
+        ls.logging.info('data updated at {}'.format(data.time_stamp))
         print('data updated at {}'.format(data.time_stamp))
 
 
@@ -118,7 +125,6 @@ class City(object):
 
 if __name__ == "__main__":
     data = Data()
-
     while True:
         time.sleep(45 + 30 * random.random())
         response = load_response()
