@@ -95,11 +95,25 @@ class Data(object):
             time.sleep(15 + 10 * random.random())
             self.init()
 
-    def update(self):
-        self.response = load_response()
-        self.init()
-        ls.logging.info('data updated at {}'.format(data.time_stamp))
+    def update(self, *funcs_to_call):
+        ret = self.init()
+        if ret:
+            ls.logging.info('data updated at {}'.format(data.time_stamp))
+            self.on_update(funcs_to_call)
 
+    def on_update(self, *funcs_to_call):
+        write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
+        write_json('./jsons/latest.json', self.response)
+        for func in funcs_to_call:
+            try:
+                func()
+            except Exception as e:
+                ls.logging.error('calling {} failed'.format(func))
+                ls.logging.exception(e)
+
+
+def p():
+    print(0)
 
 class Province(object):
     def __init__(self, province_stat):
@@ -115,8 +129,6 @@ class Province(object):
     def load_stat(self, province_stat_cities):
         return [City(city_stat) for city_stat in province_stat_cities]
 
-def p():
-    print(0)
 
 class City(object):
     def __init__(self, city_stat):
