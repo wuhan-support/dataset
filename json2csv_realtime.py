@@ -36,11 +36,10 @@ def save_csv_area(filename):
 if __name__ == '__main__':
     list=[]
     for i in os.listdir('jsons/'):
-        if i.split('.')[ 1 ]!='json':
-            timestamp = float(i.split('.')[ 0 ]+'.'+i.split('.')[ 1 ])
-        else:
-            timestamp = float(i.split('.')[ 0 ])
-        list.append(timestamp)
+        if i.split('.')[ 0]!='latest':
+            if i.split('.')[ 1 ]!='json':
+                timestamp = float(i.split('.')[ 0 ]+'.'+i.split('.')[ 1 ])
+                list.append(timestamp)
     a=max(list)
     realtime_name=str(a)+'.json'
     save_csv_area(realtime_name)
