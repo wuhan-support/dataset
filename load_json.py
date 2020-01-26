@@ -12,7 +12,7 @@ def load_response():
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4037.2 Safari/537.36',
             'Connection': 'keep - alive',
-            'Cache-Control': 'max-age=360',
+            'Cache-Control': 'max-age=0',
             'Upgrade-Insecure-Requests': '1',
             'Accept': '*/*',
             'Sec-Fetch-Site': 'cross-site',
@@ -47,7 +47,7 @@ def write_json(file_name, js):
 
 
 class Data(object):
-    def __init__(self):
+    def __init__(self, *on_updates):
         self.response = None
         self.provinces = []
         self.time_stamp = 0
@@ -57,14 +57,15 @@ class Data(object):
         self.dead = 0
         self.data_dict = {}
         self.diff_dict = {}
-        self.init()
+        self.on_updates = on_updates
+        self.update()
 
     def load_stat(self, area_stat):
         return [Province(province_stat) for province_stat in area_stat]
 
     def init(self):
         try:
-            latest_response = load_json()
+            latest_response = load_response()
             if self.response and latest_response['data']['listByArea'] == self.response['data']['listByArea']:
                 return False
             else:
@@ -95,16 +96,16 @@ class Data(object):
             time.sleep(15 + 10 * random.random())
             self.init()
 
-    def update(self, *funcs_to_call):
+    def update(self):
         ret = self.init()
         if ret:
             ls.logging.info('data updated at {}'.format(data.time_stamp))
-            self.on_update(funcs_to_call)
+            self.on_update()
 
-    def on_update(self, *funcs_to_call):
+    def on_update(self):
         write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
         write_json('./jsons/latest.json', self.response)
-        for func in funcs_to_call:
+        for func in self.on_updates:
             try:
                 func()
             except Exception as e:
@@ -140,9 +141,9 @@ class City(object):
 
 
 if __name__ == "__main__":
-    data = Data()
+    data = Data(p)
     while True:
         time.sleep(45 + 30 * random.random())
         response = load_response()
         if response['data']['listByArea'] != data.response['data']['listByArea']:
-            data.update([p])
+            data.update()
