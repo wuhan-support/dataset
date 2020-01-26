@@ -2,7 +2,6 @@ import json
 import random
 import time
 import requests
-from constant import JSON_LOAD_FAILED
 from log_support import LogSupport
 
 # 初始化日志
@@ -30,8 +29,8 @@ def load_response():
         ls.logging.info('json loaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
         return response
     except Exception as e:
+        ls.logging.error('json load failed, waiting for around 15 seconds')
         ls.logging.exception(e)
-        ls.logging.error(JSON_LOAD_FAILED)
         time.sleep(15 + 5 * random.random())
         return load_response()
 
