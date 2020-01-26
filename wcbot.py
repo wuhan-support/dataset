@@ -7,7 +7,6 @@ USER_DICT = {} # user_id, list of interested places
 
 def main():
     itchat.auto_login(hotReload=True, enableCmdQR=2)
-
     data = Data()
     data_dict == copy(data.data_dict)
     while True:
