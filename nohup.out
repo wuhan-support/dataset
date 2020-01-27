@@ -276,3 +276,4 @@ data/getAreaStat.jsonl
 data/getAreaStat.jsonl
 data/getIndexRumorList.jsonl
 data/getTimelineService.jsonl
+data/getWikiList.jsonl
