@@ -471,3 +471,6 @@ data/getEntries.jsonl
 data/getPV.jsonl
 data/getIndexRumorList.jsonl
 data/getTimelineService.jsonl
+data/getAreaStat.jsonl
+data/getIndexRumorList.jsonl
+data/getListByCountryTypeService1.jsonl
