@@ -810,3 +810,6 @@
 [main] 2020/01/27 09:26:00 successfully saved data to: data/getTimelineService.jsonl
 [main] 2020/01/27 09:27:00 fetching http resource
 [main] 2020/01/27 09:27:00 http resource fetched
+[main] 2020/01/27 09:28:00 fetching http resource
+[main] 2020/01/27 09:28:00 http resource fetched
+[main] 2020/01/27 09:28:00 successfully saved data to: data/getTimelineService.jsonl
