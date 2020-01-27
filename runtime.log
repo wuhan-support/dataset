@@ -1249,3 +1249,6 @@
 [main] 2020/01/27 11:55:00 http resource fetched
 [main] 2020/01/27 11:56:00 fetching http resource
 [main] 2020/01/27 11:56:00 http resource fetched
+[main] 2020/01/27 11:57:00 fetching http resource
+[main] 2020/01/27 11:57:00 http resource fetched
+[main] 2020/01/27 11:57:00 successfully saved data to: data/getStatisticsService.jsonl
