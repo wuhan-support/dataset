@@ -1057,3 +1057,7 @@
 [main] 2020/01/27 10:46:00 fetching http resource
 [main] 2020/01/27 10:46:00 http resource fetched
 [main] 2020/01/27 10:46:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 10:47:00 fetching http resource
+[main] 2020/01/27 10:47:00 http resource fetched
+[main] 2020/01/27 10:47:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 10:47:00 successfully saved data to: data/getTimelineService.jsonl
