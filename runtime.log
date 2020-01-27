@@ -2153,3 +2153,17 @@
 [main] 2020/01/27 17:55:00 fetching http resource
 [main] 2020/01/27 17:55:00 http resource fetched
 [main] 2020/01/27 17:55:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 17:56:00 fetching http resource
+[main] 2020/01/27 17:56:00 http resource fetched
+[main] 2020/01/27 17:56:00 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/27 17:56:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 17:56:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 17:57:00 fetching http resource
+[main] 2020/01/27 17:57:00 http resource fetched
+[main] 2020/01/27 17:58:00 fetching http resource
+[main] 2020/01/27 17:58:00 http resource fetched
+[main] 2020/01/27 17:59:00 fetching http resource
+[main] 2020/01/27 17:59:00 http resource fetched
+[main] 2020/01/27 17:59:00 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/27 18:00:00 fetching http resource
+[main] 2020/01/27 18:00:00 http resource fetched
