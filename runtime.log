@@ -1560,3 +1560,18 @@
 [main] 2020/01/27 13:49:00 successfully saved data to: data/getTimelineService.jsonl
 [main] 2020/01/27 13:50:00 fetching http resource
 [main] 2020/01/27 13:50:00 http resource fetched
+[main] 2020/01/27 13:51:00 fetching http resource
+[main] 2020/01/27 13:51:00 http resource fetched
+[main] 2020/01/27 13:51:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 13:52:00 fetching http resource
+[main] 2020/01/27 13:52:00 http resource fetched
+[main] 2020/01/27 13:52:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 13:52:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 13:52:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 13:53:00 fetching http resource
+[main] 2020/01/27 13:53:00 http resource fetched
+[main] 2020/01/27 13:53:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 13:54:00 fetching http resource
+[main] 2020/01/27 13:54:00 http resource fetched
+[main] 2020/01/27 13:55:00 fetching http resource
+[main] 2020/01/27 13:55:00 http resource fetched
