@@ -328,3 +328,4 @@ data/getIndexRumorList.jsonl
 data/getPV.jsonl
 data/getStatisticsService.jsonl
 data/getPV.jsonl
+data/getWikiList.jsonl
