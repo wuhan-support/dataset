@@ -1519,3 +1519,6 @@
 [main] 2020/01/27 13:32:00 http resource fetched
 [main] 2020/01/27 13:33:00 fetching http resource
 [main] 2020/01/27 13:33:00 http resource fetched
+[main] 2020/01/27 13:34:00 fetching http resource
+[main] 2020/01/27 13:34:00 http resource fetched
+[main] 2020/01/27 13:34:00 successfully saved data to: data/getIndexRecommendList.jsonl
