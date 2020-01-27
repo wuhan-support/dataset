@@ -1783,3 +1783,16 @@
 [main] 2020/01/27 15:20:00 fetching http resource
 [main] 2020/01/27 15:20:00 http resource fetched
 [main] 2020/01/27 15:20:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 15:21:00 fetching http resource
+[main] 2020/01/27 15:21:00 http resource fetched
+[main] 2020/01/27 15:21:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 15:22:00 fetching http resource
+[main] 2020/01/27 15:22:00 http resource fetched
+[main] 2020/01/27 15:23:00 fetching http resource
+[main] 2020/01/27 15:23:00 http resource fetched
+[main] 2020/01/27 15:24:00 fetching http resource
+[main] 2020/01/27 15:24:00 http resource fetched
+[main] 2020/01/27 15:24:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 15:24:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 15:25:00 fetching http resource
+[main] 2020/01/27 15:25:00 http resource fetched
