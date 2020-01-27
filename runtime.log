@@ -1234,3 +1234,6 @@
 [main] 2020/01/27 11:50:00 fetching http resource
 [main] 2020/01/27 11:50:00 http resource fetched
 [main] 2020/01/27 11:50:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 11:51:00 fetching http resource
+[main] 2020/01/27 11:51:00 http resource fetched
+[main] 2020/01/27 11:51:00 successfully saved data to: data/getIndexRumorList.jsonl
