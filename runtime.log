@@ -930,3 +930,8 @@
 [main] 2020/01/27 10:08:00 successfully saved data to: data/getTimelineService.jsonl
 [main] 2020/01/27 10:09:00 fetching http resource
 [main] 2020/01/27 10:09:00 http resource fetched
+[main] 2020/01/27 10:10:00 fetching http resource
+[main] 2020/01/27 10:10:00 http resource fetched
+[main] 2020/01/27 10:10:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 10:10:00 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 10:10:00 successfully saved data to: data/getPV.jsonl
