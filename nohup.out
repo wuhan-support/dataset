@@ -372,3 +372,4 @@ data/getPV.jsonl
 data/getAreaStat.jsonl
 data/getWikiList.jsonl
 data/getListByCountryTypeService1.jsonl
+data/getWikiList.jsonl

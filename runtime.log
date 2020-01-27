@@ -1387,3 +1387,6 @@
 [main] 2020/01/27 12:42:00 successfully saved data to: data/getAreaStat.jsonl
 [main] 2020/01/27 12:42:00 successfully saved data to: data/getWikiList.jsonl
 [main] 2020/01/27 12:42:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 12:43:00 fetching http resource
+[main] 2020/01/27 12:43:00 http resource fetched
+[main] 2020/01/27 12:43:00 successfully saved data to: data/getWikiList.jsonl
