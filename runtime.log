@@ -1452,3 +1452,5 @@
 [main] 2020/01/27 13:04:00 fetching http resource
 [main] 2020/01/27 13:04:00 http resource fetched
 [main] 2020/01/27 13:04:00 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 13:05:00 fetching http resource
+[main] 2020/01/27 13:05:00 http resource fetched
