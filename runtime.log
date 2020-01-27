@@ -2190,3 +2190,8 @@
 [main] 2020/01/27 18:10:00 fetching http resource
 [main] 2020/01/27 18:10:00 http resource fetched
 [main] 2020/01/27 18:10:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 18:11:00 fetching http resource
+[main] 2020/01/27 18:11:00 http resource fetched
+[main] 2020/01/27 18:12:00 fetching http resource
+[main] 2020/01/27 18:12:01 http resource fetched
+[main] 2020/01/27 18:12:33 failed to initialize goquery document: read tcp 10.170.0.3:58424->121.43.212.200:443: read: connection reset by peer
