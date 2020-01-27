@@ -1120,3 +1120,7 @@
 [main] 2020/01/27 11:05:00 http resource fetched
 [main] 2020/01/27 11:05:00 successfully saved data to: data/getAreaStat.jsonl
 [main] 2020/01/27 11:05:00 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 11:06:00 fetching http resource
+[main] 2020/01/27 11:06:00 http resource fetched
+[main] 2020/01/27 11:06:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 11:06:00 successfully saved data to: data/getWikiList.jsonl
