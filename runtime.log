@@ -925,3 +925,6 @@
 [main] 2020/01/27 10:06:00 successfully saved data to: data/getStatisticsService.jsonl
 [main] 2020/01/27 10:07:00 fetching http resource
 [main] 2020/01/27 10:07:00 http resource fetched
+[main] 2020/01/27 10:08:00 fetching http resource
+[main] 2020/01/27 10:08:00 http resource fetched
+[main] 2020/01/27 10:08:00 successfully saved data to: data/getTimelineService.jsonl
