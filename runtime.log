@@ -1209,3 +1209,6 @@
 [main] 2020/01/27 11:39:00 http resource fetched
 [main] 2020/01/27 11:40:00 fetching http resource
 [main] 2020/01/27 11:40:00 http resource fetched
+[main] 2020/01/27 11:41:00 fetching http resource
+[main] 2020/01/27 11:41:00 http resource fetched
+[main] 2020/01/27 11:41:00 successfully saved data to: data/getPV.jsonl
