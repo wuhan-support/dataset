@@ -251,3 +251,5 @@ data/getPV.jsonl
 data/getStatisticsService.jsonl
 data/getWikiList.jsonl
 data/getWikiList.jsonl
+data/getWikiList.jsonl
+data/getIndexRumorList.jsonl
