@@ -1948,3 +1948,14 @@
 [main] 2020/01/27 16:29:00 http resource fetched
 [main] 2020/01/27 16:30:00 fetching http resource
 [main] 2020/01/27 16:30:00 http resource fetched
+[main] 2020/01/27 16:31:00 fetching http resource
+[main] 2020/01/27 16:31:00 http resource fetched
+[main] 2020/01/27 16:32:00 fetching http resource
+[main] 2020/01/27 16:32:00 http resource fetched
+[main] 2020/01/27 16:33:00 fetching http resource
+[main] 2020/01/27 16:33:00 http resource fetched
+[main] 2020/01/27 16:34:00 fetching http resource
+[main] 2020/01/27 16:34:00 http resource fetched
+[main] 2020/01/27 16:34:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 16:35:00 fetching http resource
+[main] 2020/01/27 16:35:00 http resource fetched
