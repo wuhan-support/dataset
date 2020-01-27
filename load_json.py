@@ -98,7 +98,7 @@ class Data(object):
     def update(self):
         ret = self.init()
         if ret:
-            ls.logging.info('data updated at {}'.format(data.time_stamp))
+            ls.logging.info('data updated at {}'.format(self.time_stamp))
             self.on_update()
 
     def on_update(self):
