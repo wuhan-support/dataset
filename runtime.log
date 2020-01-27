@@ -1412,3 +1412,8 @@
 [main] 2020/01/27 12:50:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
 [main] 2020/01/27 12:50:00 successfully saved data to: data/getStatisticsService.jsonl
 [main] 2020/01/27 12:50:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 12:51:00 fetching http resource
+[main] 2020/01/27 12:51:00 http resource fetched
+[main] 2020/01/27 12:51:00 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 12:51:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 12:51:00 successfully saved data to: data/getTimelineService.jsonl
