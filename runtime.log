@@ -1,0 +1,610 @@
+[main] 2020/01/27 04:28:49 fetching http resource
+[main] 2020/01/27 04:28:50 http resource fetched
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/27 04:28:50 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:28:50 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 04:29:00 fetching http resource
+[main] 2020/01/27 04:29:00 http resource fetched
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/27 04:29:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 04:29:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 04:30:00 fetching http resource
+[main] 2020/01/27 04:30:00 http resource fetched
+[main] 2020/01/27 04:31:00 fetching http resource
+[main] 2020/01/27 04:31:00 http resource fetched
+[main] 2020/01/27 04:32:00 fetching http resource
+[main] 2020/01/27 04:32:00 http resource fetched
+[main] 2020/01/27 04:33:00 fetching http resource
+[main] 2020/01/27 04:33:00 http resource fetched
+[main] 2020/01/27 04:34:00 fetching http resource
+[main] 2020/01/27 04:34:00 http resource fetched
+[main] 2020/01/27 04:35:00 fetching http resource
+[main] 2020/01/27 04:35:00 http resource fetched
+[main] 2020/01/27 04:36:00 fetching http resource
+[main] 2020/01/27 04:36:00 http resource fetched
+[main] 2020/01/27 04:37:00 fetching http resource
+[main] 2020/01/27 04:37:08 http resource fetched
+[main] 2020/01/27 04:38:00 fetching http resource
+[main] 2020/01/27 04:38:00 http resource fetched
+[main] 2020/01/27 04:39:00 fetching http resource
+[main] 2020/01/27 04:39:00 http resource fetched
+[main] 2020/01/27 04:39:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 04:40:00 fetching http resource
+[main] 2020/01/27 04:40:00 http resource fetched
+[main] 2020/01/27 04:41:00 fetching http resource
+[main] 2020/01/27 04:41:00 http resource fetched
+[main] 2020/01/27 04:42:00 fetching http resource
+[main] 2020/01/27 04:42:00 http resource fetched
+[main] 2020/01/27 04:43:00 fetching http resource
+[main] 2020/01/27 04:43:00 http resource fetched
+[main] 2020/01/27 04:44:00 fetching http resource
+[main] 2020/01/27 04:44:00 http resource fetched
+[main] 2020/01/27 04:45:00 fetching http resource
+[main] 2020/01/27 04:45:00 http resource fetched
+[main] 2020/01/27 04:46:00 fetching http resource
+[main] 2020/01/27 04:46:00 http resource fetched
+[main] 2020/01/27 04:47:00 fetching http resource
+[main] 2020/01/27 04:47:00 http resource fetched
+[main] 2020/01/27 04:48:00 fetching http resource
+[main] 2020/01/27 04:48:00 http resource fetched
+[main] 2020/01/27 04:48:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 04:49:00 fetching http resource
+[main] 2020/01/27 04:49:00 http resource fetched
+[main] 2020/01/27 04:49:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 04:50:00 fetching http resource
+[main] 2020/01/27 04:50:00 http resource fetched
+[main] 2020/01/27 04:51:00 fetching http resource
+[main] 2020/01/27 04:51:00 http resource fetched
+[main] 2020/01/27 04:52:00 fetching http resource
+[main] 2020/01/27 04:52:00 http resource fetched
+[main] 2020/01/27 04:53:00 fetching http resource
+[main] 2020/01/27 04:53:00 http resource fetched
+[main] 2020/01/27 04:54:00 fetching http resource
+[main] 2020/01/27 04:54:00 http resource fetched
+[main] 2020/01/27 04:55:00 fetching http resource
+[main] 2020/01/27 04:55:00 http resource fetched
+[main] 2020/01/27 04:56:00 fetching http resource
+[main] 2020/01/27 04:56:00 http resource fetched
+[main] 2020/01/27 04:57:00 fetching http resource
+[main] 2020/01/27 04:57:00 http resource fetched
+[main] 2020/01/27 04:58:00 fetching http resource
+[main] 2020/01/27 04:58:00 http resource fetched
+[main] 2020/01/27 04:58:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 04:59:00 fetching http resource
+[main] 2020/01/27 04:59:00 http resource fetched
+[main] 2020/01/27 05:00:00 fetching http resource
+[main] 2020/01/27 05:00:00 http resource fetched
+[main] 2020/01/27 05:01:00 fetching http resource
+[main] 2020/01/27 05:01:00 http resource fetched
+[main] 2020/01/27 05:02:00 fetching http resource
+[main] 2020/01/27 05:02:00 http resource fetched
+[main] 2020/01/27 05:03:00 fetching http resource
+[main] 2020/01/27 05:03:00 http resource fetched
+[main] 2020/01/27 05:04:00 fetching http resource
+[main] 2020/01/27 05:04:00 http resource fetched
+[main] 2020/01/27 05:05:00 fetching http resource
+[main] 2020/01/27 05:05:00 http resource fetched
+[main] 2020/01/27 05:05:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:06:00 fetching http resource
+[main] 2020/01/27 05:06:00 http resource fetched
+[main] 2020/01/27 05:07:00 fetching http resource
+[main] 2020/01/27 05:07:00 http resource fetched
+[main] 2020/01/27 05:08:00 fetching http resource
+[main] 2020/01/27 05:08:00 http resource fetched
+[main] 2020/01/27 05:08:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:09:00 fetching http resource
+[main] 2020/01/27 05:09:00 http resource fetched
+[main] 2020/01/27 05:10:00 fetching http resource
+[main] 2020/01/27 05:10:00 http resource fetched
+[main] 2020/01/27 05:11:00 fetching http resource
+[main] 2020/01/27 05:11:00 http resource fetched
+[main] 2020/01/27 05:12:00 fetching http resource
+[main] 2020/01/27 05:12:00 http resource fetched
+[main] 2020/01/27 05:13:00 fetching http resource
+[main] 2020/01/27 05:13:00 http resource fetched
+[main] 2020/01/27 05:14:00 fetching http resource
+[main] 2020/01/27 05:14:00 http resource fetched
+[main] 2020/01/27 05:14:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:15:00 fetching http resource
+[main] 2020/01/27 05:15:00 http resource fetched
+[main] 2020/01/27 05:15:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:16:00 fetching http resource
+[main] 2020/01/27 05:16:00 http resource fetched
+[main] 2020/01/27 05:17:00 fetching http resource
+[main] 2020/01/27 05:17:00 http resource fetched
+[main] 2020/01/27 05:18:00 fetching http resource
+[main] 2020/01/27 05:18:00 http resource fetched
+[main] 2020/01/27 05:18:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:19:00 fetching http resource
+[main] 2020/01/27 05:19:00 http resource fetched
+[main] 2020/01/27 05:20:00 fetching http resource
+[main] 2020/01/27 05:20:00 http resource fetched
+[main] 2020/01/27 05:21:00 fetching http resource
+[main] 2020/01/27 05:21:00 http resource fetched
+[main] 2020/01/27 05:22:00 fetching http resource
+[main] 2020/01/27 05:22:00 http resource fetched
+[main] 2020/01/27 05:23:00 fetching http resource
+[main] 2020/01/27 05:23:00 http resource fetched
+[main] 2020/01/27 05:24:00 fetching http resource
+[main] 2020/01/27 05:24:00 http resource fetched
+[main] 2020/01/27 05:25:00 fetching http resource
+[main] 2020/01/27 05:25:00 http resource fetched
+[main] 2020/01/27 05:26:00 fetching http resource
+[main] 2020/01/27 05:26:00 http resource fetched
+[main] 2020/01/27 05:27:00 fetching http resource
+[main] 2020/01/27 05:27:00 http resource fetched
+[main] 2020/01/27 05:28:00 fetching http resource
+[main] 2020/01/27 05:28:00 http resource fetched
+[main] 2020/01/27 05:29:00 fetching http resource
+[main] 2020/01/27 05:29:00 http resource fetched
+[main] 2020/01/27 05:30:00 fetching http resource
+[main] 2020/01/27 05:30:00 http resource fetched
+[main] 2020/01/27 05:31:00 fetching http resource
+[main] 2020/01/27 05:31:00 http resource fetched
+[main] 2020/01/27 05:32:00 fetching http resource
+[main] 2020/01/27 05:32:00 http resource fetched
+[main] 2020/01/27 05:32:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:32:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 05:32:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:33:00 fetching http resource
+[main] 2020/01/27 05:33:00 http resource fetched
+[main] 2020/01/27 05:33:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:33:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 05:33:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:34:00 fetching http resource
+[main] 2020/01/27 05:34:00 http resource fetched
+[main] 2020/01/27 05:34:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:34:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 05:34:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:35:00 fetching http resource
+[main] 2020/01/27 05:35:00 http resource fetched
+[main] 2020/01/27 05:36:00 fetching http resource
+[main] 2020/01/27 05:36:00 http resource fetched
+[main] 2020/01/27 05:36:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:37:00 fetching http resource
+[main] 2020/01/27 05:37:00 http resource fetched
+[main] 2020/01/27 05:38:00 fetching http resource
+[main] 2020/01/27 05:38:00 http resource fetched
+[main] 2020/01/27 05:39:00 fetching http resource
+[main] 2020/01/27 05:39:00 http resource fetched
+[main] 2020/01/27 05:39:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:40:00 fetching http resource
+[main] 2020/01/27 05:40:00 http resource fetched
+[main] 2020/01/27 05:40:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:41:00 fetching http resource
+[main] 2020/01/27 05:41:00 http resource fetched
+[main] 2020/01/27 05:41:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:42:00 fetching http resource
+[main] 2020/01/27 05:42:00 http resource fetched
+[main] 2020/01/27 05:43:00 fetching http resource
+[main] 2020/01/27 05:43:00 http resource fetched
+[main] 2020/01/27 05:43:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 05:43:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:43:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:44:00 fetching http resource
+[main] 2020/01/27 05:44:00 http resource fetched
+[main] 2020/01/27 05:45:00 fetching http resource
+[main] 2020/01/27 05:45:00 http resource fetched
+[main] 2020/01/27 05:46:00 fetching http resource
+[main] 2020/01/27 05:46:00 http resource fetched
+[main] 2020/01/27 05:47:00 fetching http resource
+[main] 2020/01/27 05:47:00 http resource fetched
+[main] 2020/01/27 05:48:00 fetching http resource
+[main] 2020/01/27 05:48:00 http resource fetched
+[main] 2020/01/27 05:48:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:49:00 fetching http resource
+[main] 2020/01/27 05:49:00 http resource fetched
+[main] 2020/01/27 05:50:00 fetching http resource
+[main] 2020/01/27 05:50:00 http resource fetched
+[main] 2020/01/27 05:50:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:51:00 fetching http resource
+[main] 2020/01/27 05:51:00 http resource fetched
+[main] 2020/01/27 05:52:00 fetching http resource
+[main] 2020/01/27 05:52:00 http resource fetched
+[main] 2020/01/27 05:53:00 fetching http resource
+[main] 2020/01/27 05:53:00 http resource fetched
+[main] 2020/01/27 05:54:00 fetching http resource
+[main] 2020/01/27 05:54:00 http resource fetched
+[main] 2020/01/27 05:55:00 fetching http resource
+[main] 2020/01/27 05:55:00 http resource fetched
+[main] 2020/01/27 05:56:00 fetching http resource
+[main] 2020/01/27 05:56:00 http resource fetched
+[main] 2020/01/27 05:56:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 05:57:00 fetching http resource
+[main] 2020/01/27 05:57:00 http resource fetched
+[main] 2020/01/27 05:58:00 fetching http resource
+[main] 2020/01/27 05:58:00 http resource fetched
+[main] 2020/01/27 05:58:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 05:59:00 fetching http resource
+[main] 2020/01/27 05:59:00 http resource fetched
+[main] 2020/01/27 06:00:00 fetching http resource
+[main] 2020/01/27 06:00:00 http resource fetched
+[main] 2020/01/27 06:00:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:01:00 fetching http resource
+[main] 2020/01/27 06:01:00 http resource fetched
+[main] 2020/01/27 06:02:00 fetching http resource
+[main] 2020/01/27 06:02:00 http resource fetched
+[main] 2020/01/27 06:02:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:03:00 fetching http resource
+[main] 2020/01/27 06:03:00 http resource fetched
+[main] 2020/01/27 06:03:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:04:00 fetching http resource
+[main] 2020/01/27 06:04:00 http resource fetched
+[main] 2020/01/27 06:04:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:05:00 fetching http resource
+[main] 2020/01/27 06:05:00 http resource fetched
+[main] 2020/01/27 06:06:00 fetching http resource
+[main] 2020/01/27 06:06:00 http resource fetched
+[main] 2020/01/27 06:07:00 fetching http resource
+[main] 2020/01/27 06:07:00 http resource fetched
+[main] 2020/01/27 06:08:00 fetching http resource
+[main] 2020/01/27 06:08:00 http resource fetched
+[main] 2020/01/27 06:08:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:09:00 fetching http resource
+[main] 2020/01/27 06:09:00 http resource fetched
+[main] 2020/01/27 06:10:00 fetching http resource
+[main] 2020/01/27 06:10:00 http resource fetched
+[main] 2020/01/27 06:11:00 fetching http resource
+[main] 2020/01/27 06:11:00 http resource fetched
+[main] 2020/01/27 06:12:00 fetching http resource
+[main] 2020/01/27 06:12:00 http resource fetched
+[main] 2020/01/27 06:13:00 fetching http resource
+[main] 2020/01/27 06:13:00 http resource fetched
+[main] 2020/01/27 06:13:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 06:13:00 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/27 06:13:00 (cache) first time running the app. saving both content and cache
+[main] 2020/01/27 06:13:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 06:14:00 fetching http resource
+[main] 2020/01/27 06:14:00 http resource fetched
+[main] 2020/01/27 06:15:00 fetching http resource
+[main] 2020/01/27 06:15:00 http resource fetched
+[main] 2020/01/27 06:15:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:16:00 fetching http resource
+[main] 2020/01/27 06:16:00 http resource fetched
+[main] 2020/01/27 06:17:00 fetching http resource
+[main] 2020/01/27 06:17:00 http resource fetched
+[main] 2020/01/27 06:18:00 fetching http resource
+[main] 2020/01/27 06:18:00 http resource fetched
+[main] 2020/01/27 06:18:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 06:18:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:18:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:19:00 fetching http resource
+[main] 2020/01/27 06:19:00 http resource fetched
+[main] 2020/01/27 06:20:00 fetching http resource
+[main] 2020/01/27 06:20:00 http resource fetched
+[main] 2020/01/27 06:21:00 fetching http resource
+[main] 2020/01/27 06:21:00 http resource fetched
+[main] 2020/01/27 06:22:00 fetching http resource
+[main] 2020/01/27 06:22:00 http resource fetched
+[main] 2020/01/27 06:23:00 fetching http resource
+[main] 2020/01/27 06:23:00 http resource fetched
+[main] 2020/01/27 06:24:00 fetching http resource
+[main] 2020/01/27 06:24:00 http resource fetched
+[main] 2020/01/27 06:24:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:25:00 fetching http resource
+[main] 2020/01/27 06:25:00 http resource fetched
+[main] 2020/01/27 06:25:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:26:00 fetching http resource
+[main] 2020/01/27 06:26:00 http resource fetched
+[main] 2020/01/27 06:27:00 fetching http resource
+[main] 2020/01/27 06:27:00 http resource fetched
+[main] 2020/01/27 06:28:00 fetching http resource
+[main] 2020/01/27 06:28:00 http resource fetched
+[main] 2020/01/27 06:28:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:29:00 fetching http resource
+[main] 2020/01/27 06:29:00 http resource fetched
+[main] 2020/01/27 06:30:00 fetching http resource
+[main] 2020/01/27 06:30:00 http resource fetched
+[main] 2020/01/27 06:31:00 fetching http resource
+[main] 2020/01/27 06:31:00 http resource fetched
+[main] 2020/01/27 06:32:00 fetching http resource
+[main] 2020/01/27 06:32:00 http resource fetched
+[main] 2020/01/27 06:32:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:33:00 fetching http resource
+[main] 2020/01/27 06:33:00 http resource fetched
+[main] 2020/01/27 06:33:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 06:34:00 fetching http resource
+[main] 2020/01/27 06:34:00 http resource fetched
+[main] 2020/01/27 06:34:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:34:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 06:35:00 fetching http resource
+[main] 2020/01/27 06:35:00 http resource fetched
+[main] 2020/01/27 06:36:00 fetching http resource
+[main] 2020/01/27 06:36:00 http resource fetched
+[main] 2020/01/27 06:36:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:37:00 fetching http resource
+[main] 2020/01/27 06:37:00 http resource fetched
+[main] 2020/01/27 06:37:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:38:00 fetching http resource
+[main] 2020/01/27 06:38:00 http resource fetched
+[main] 2020/01/27 06:38:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:39:00 fetching http resource
+[main] 2020/01/27 06:39:00 http resource fetched
+[main] 2020/01/27 06:40:00 fetching http resource
+[main] 2020/01/27 06:40:00 http resource fetched
+[main] 2020/01/27 06:40:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 06:41:00 fetching http resource
+[main] 2020/01/27 06:41:00 http resource fetched
+[main] 2020/01/27 06:41:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 06:41:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:42:00 fetching http resource
+[main] 2020/01/27 06:42:00 http resource fetched
+[main] 2020/01/27 06:42:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 06:42:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:43:00 fetching http resource
+[main] 2020/01/27 06:43:00 http resource fetched
+[main] 2020/01/27 06:43:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 06:43:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:44:00 fetching http resource
+[main] 2020/01/27 06:44:00 http resource fetched
+[main] 2020/01/27 06:45:00 fetching http resource
+[main] 2020/01/27 06:45:00 http resource fetched
+[main] 2020/01/27 06:46:00 fetching http resource
+[main] 2020/01/27 06:46:00 http resource fetched
+[main] 2020/01/27 06:47:00 fetching http resource
+[main] 2020/01/27 06:47:00 http resource fetched
+[main] 2020/01/27 06:48:00 fetching http resource
+[main] 2020/01/27 06:48:00 http resource fetched
+[main] 2020/01/27 06:48:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:49:00 fetching http resource
+[main] 2020/01/27 06:49:00 http resource fetched
+[main] 2020/01/27 06:50:00 fetching http resource
+[main] 2020/01/27 06:50:00 http resource fetched
+[main] 2020/01/27 06:50:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 06:51:00 fetching http resource
+[main] 2020/01/27 06:51:00 http resource fetched
+[main] 2020/01/27 06:52:00 fetching http resource
+[main] 2020/01/27 06:52:00 http resource fetched
+[main] 2020/01/27 06:52:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 06:53:00 fetching http resource
+[main] 2020/01/27 06:53:00 http resource fetched
+[main] 2020/01/27 06:53:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:54:00 fetching http resource
+[main] 2020/01/27 06:54:00 http resource fetched
+[main] 2020/01/27 06:54:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:54:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 06:55:00 fetching http resource
+[main] 2020/01/27 06:55:00 http resource fetched
+[main] 2020/01/27 06:55:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 06:55:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 06:56:00 fetching http resource
+[main] 2020/01/27 06:56:00 http resource fetched
+[main] 2020/01/27 06:57:00 fetching http resource
+[main] 2020/01/27 06:57:00 http resource fetched
+[main] 2020/01/27 06:58:00 fetching http resource
+[main] 2020/01/27 06:58:00 http resource fetched
+[main] 2020/01/27 06:58:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 06:59:00 fetching http resource
+[main] 2020/01/27 06:59:00 http resource fetched
+[main] 2020/01/27 06:59:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 07:00:00 fetching http resource
+[main] 2020/01/27 07:00:00 http resource fetched
+[main] 2020/01/27 07:01:00 fetching http resource
+[main] 2020/01/27 07:01:00 http resource fetched
+[main] 2020/01/27 07:02:00 fetching http resource
+[main] 2020/01/27 07:02:00 http resource fetched
+[main] 2020/01/27 07:03:00 fetching http resource
+[main] 2020/01/27 07:03:00 http resource fetched
+[main] 2020/01/27 07:04:00 fetching http resource
+[main] 2020/01/27 07:04:00 http resource fetched
+[main] 2020/01/27 07:05:00 fetching http resource
+[main] 2020/01/27 07:05:00 http resource fetched
+[main] 2020/01/27 07:06:00 fetching http resource
+[main] 2020/01/27 07:06:00 http resource fetched
+[main] 2020/01/27 07:07:00 fetching http resource
+[main] 2020/01/27 07:07:00 http resource fetched
+[main] 2020/01/27 07:08:00 fetching http resource
+[main] 2020/01/27 07:08:00 http resource fetched
+[main] 2020/01/27 07:09:00 fetching http resource
+[main] 2020/01/27 07:09:00 http resource fetched
+[main] 2020/01/27 07:09:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 07:10:00 fetching http resource
+[main] 2020/01/27 07:10:00 http resource fetched
+[main] 2020/01/27 07:10:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:10:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 07:11:00 fetching http resource
+[main] 2020/01/27 07:11:00 http resource fetched
+[main] 2020/01/27 07:11:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:12:00 fetching http resource
+[main] 2020/01/27 07:12:00 http resource fetched
+[main] 2020/01/27 07:13:00 fetching http resource
+[main] 2020/01/27 07:13:00 http resource fetched
+[main] 2020/01/27 07:13:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:14:00 fetching http resource
+[main] 2020/01/27 07:14:00 http resource fetched
+[main] 2020/01/27 07:14:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:15:00 fetching http resource
+[main] 2020/01/27 07:15:00 http resource fetched
+[main] 2020/01/27 07:15:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:16:00 fetching http resource
+[main] 2020/01/27 07:16:00 http resource fetched
+[main] 2020/01/27 07:16:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:17:00 fetching http resource
+[main] 2020/01/27 07:17:00 http resource fetched
+[main] 2020/01/27 07:17:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:18:00 fetching http resource
+[main] 2020/01/27 07:18:00 http resource fetched
+[main] 2020/01/27 07:18:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:18:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 07:19:00 fetching http resource
+[main] 2020/01/27 07:19:00 http resource fetched
+[main] 2020/01/27 07:20:00 fetching http resource
+[main] 2020/01/27 07:20:00 http resource fetched
+[main] 2020/01/27 07:21:00 fetching http resource
+[main] 2020/01/27 07:21:00 http resource fetched
+[main] 2020/01/27 07:22:00 fetching http resource
+[main] 2020/01/27 07:22:00 http resource fetched
+[main] 2020/01/27 07:23:00 fetching http resource
+[main] 2020/01/27 07:23:00 http resource fetched
+[main] 2020/01/27 07:23:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 07:24:00 fetching http resource
+[main] 2020/01/27 07:24:00 http resource fetched
+[main] 2020/01/27 07:25:00 fetching http resource
+[main] 2020/01/27 07:25:00 http resource fetched
+[main] 2020/01/27 07:26:00 fetching http resource
+[main] 2020/01/27 07:26:00 http resource fetched
+[main] 2020/01/27 07:27:00 fetching http resource
+[main] 2020/01/27 07:27:00 http resource fetched
+[main] 2020/01/27 07:27:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 07:28:00 fetching http resource
+[main] 2020/01/27 07:28:00 http resource fetched
+[main] 2020/01/27 07:28:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 07:29:00 fetching http resource
+[main] 2020/01/27 07:29:00 http resource fetched
+[main] 2020/01/27 07:30:00 fetching http resource
+[main] 2020/01/27 07:30:00 http resource fetched
+[main] 2020/01/27 07:31:00 fetching http resource
+[main] 2020/01/27 07:31:00 http resource fetched
+[main] 2020/01/27 07:32:00 fetching http resource
+[main] 2020/01/27 07:32:00 http resource fetched
+[main] 2020/01/27 07:33:00 fetching http resource
+[main] 2020/01/27 07:33:00 http resource fetched
+[main] 2020/01/27 07:33:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 07:34:00 fetching http resource
+[main] 2020/01/27 07:34:00 http resource fetched
+[main] 2020/01/27 07:35:00 fetching http resource
+[main] 2020/01/27 07:35:00 http resource fetched
+[main] 2020/01/27 07:36:00 fetching http resource
+[main] 2020/01/27 07:36:00 http resource fetched
+[main] 2020/01/27 07:37:00 fetching http resource
+[main] 2020/01/27 07:37:00 http resource fetched
+[main] 2020/01/27 07:38:00 fetching http resource
+[main] 2020/01/27 07:38:00 http resource fetched
+[main] 2020/01/27 07:39:00 fetching http resource
+[main] 2020/01/27 07:39:00 http resource fetched
+[main] 2020/01/27 07:39:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 07:40:00 fetching http resource
+[main] 2020/01/27 07:40:00 http resource fetched
+[main] 2020/01/27 07:41:00 fetching http resource
+[main] 2020/01/27 07:41:00 http resource fetched
+[main] 2020/01/27 07:42:00 fetching http resource
+[main] 2020/01/27 07:42:00 http resource fetched
+[main] 2020/01/27 07:43:00 fetching http resource
+[main] 2020/01/27 07:43:00 http resource fetched
+[main] 2020/01/27 07:44:00 fetching http resource
+[main] 2020/01/27 07:44:00 http resource fetched
+[main] 2020/01/27 07:45:00 fetching http resource
+[main] 2020/01/27 07:45:00 http resource fetched
+[main] 2020/01/27 07:46:00 fetching http resource
+[main] 2020/01/27 07:46:00 http resource fetched
+[main] 2020/01/27 07:47:00 fetching http resource
+[main] 2020/01/27 07:47:00 http resource fetched
+[main] 2020/01/27 07:48:00 fetching http resource
+[main] 2020/01/27 07:48:00 http resource fetched
+[main] 2020/01/27 07:48:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 07:49:00 fetching http resource
+[main] 2020/01/27 07:49:00 http resource fetched
+[main] 2020/01/27 07:50:00 fetching http resource
+[main] 2020/01/27 07:50:00 http resource fetched
+[main] 2020/01/27 07:51:00 fetching http resource
+[main] 2020/01/27 07:51:00 http resource fetched
+[main] 2020/01/27 07:52:00 fetching http resource
+[main] 2020/01/27 07:52:00 http resource fetched
+[main] 2020/01/27 07:53:00 fetching http resource
+[main] 2020/01/27 07:53:00 http resource fetched
+[main] 2020/01/27 07:54:00 fetching http resource
+[main] 2020/01/27 07:54:00 http resource fetched
+[main] 2020/01/27 07:55:00 fetching http resource
+[main] 2020/01/27 07:55:00 http resource fetched
+[main] 2020/01/27 07:56:00 fetching http resource
+[main] 2020/01/27 07:56:00 http resource fetched
+[main] 2020/01/27 07:56:00 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/27 07:57:00 fetching http resource
+[main] 2020/01/27 07:57:00 http resource fetched
+[main] 2020/01/27 07:57:00 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/27 07:58:00 fetching http resource
+[main] 2020/01/27 07:58:00 http resource fetched
+[main] 2020/01/27 07:59:00 fetching http resource
+[main] 2020/01/27 07:59:00 http resource fetched
+[main] 2020/01/27 07:59:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 08:00:00 fetching http resource
+[main] 2020/01/27 08:00:00 http resource fetched
+[main] 2020/01/27 08:00:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 08:01:00 fetching http resource
+[main] 2020/01/27 08:01:00 http resource fetched
+[main] 2020/01/27 08:01:00 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/27 08:01:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:02:00 fetching http resource
+[main] 2020/01/27 08:02:00 http resource fetched
+[main] 2020/01/27 08:02:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:03:00 fetching http resource
+[main] 2020/01/27 08:03:00 http resource fetched
+[main] 2020/01/27 08:04:00 fetching http resource
+[main] 2020/01/27 08:04:00 http resource fetched
+[main] 2020/01/27 08:04:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 08:04:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:05:00 fetching http resource
+[main] 2020/01/27 08:05:00 http resource fetched
+[main] 2020/01/27 08:06:00 fetching http resource
+[main] 2020/01/27 08:06:00 http resource fetched
+[main] 2020/01/27 08:07:00 fetching http resource
+[main] 2020/01/27 08:07:00 http resource fetched
+[main] 2020/01/27 08:08:00 fetching http resource
+[main] 2020/01/27 08:08:00 http resource fetched
+[main] 2020/01/27 08:08:00 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/27 08:08:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:09:00 fetching http resource
+[main] 2020/01/27 08:09:00 http resource fetched
+[main] 2020/01/27 08:09:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 08:10:00 fetching http resource
+[main] 2020/01/27 08:10:00 http resource fetched
+[main] 2020/01/27 08:11:00 fetching http resource
+[main] 2020/01/27 08:11:00 http resource fetched
+[main] 2020/01/27 08:11:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 08:11:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 08:12:00 fetching http resource
+[main] 2020/01/27 08:12:00 http resource fetched
+[main] 2020/01/27 08:12:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 08:12:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:13:00 fetching http resource
+[main] 2020/01/27 08:13:00 http resource fetched
+[main] 2020/01/27 08:13:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:14:00 fetching http resource
+[main] 2020/01/27 08:14:00 http resource fetched
+[main] 2020/01/27 08:15:00 fetching http resource
+[main] 2020/01/27 08:15:00 http resource fetched
+[main] 2020/01/27 08:16:00 fetching http resource
+[main] 2020/01/27 08:16:00 http resource fetched
+[main] 2020/01/27 08:17:00 fetching http resource
+[main] 2020/01/27 08:17:00 http resource fetched
+[main] 2020/01/27 08:17:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 08:18:00 fetching http resource
+[main] 2020/01/27 08:18:00 http resource fetched
+[main] 2020/01/27 08:19:00 fetching http resource
+[main] 2020/01/27 08:19:00 http resource fetched
+[main] 2020/01/27 08:19:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 08:19:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 08:19:00 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/27 08:20:00 fetching http resource
+[main] 2020/01/27 08:20:00 http resource fetched
+[main] 2020/01/27 08:21:00 fetching http resource
+[main] 2020/01/27 08:21:00 http resource fetched
+[main] 2020/01/27 08:22:00 fetching http resource
+[main] 2020/01/27 08:22:00 http resource fetched
+[main] 2020/01/27 08:22:00 successfully saved data to: data/getTimelineService.jsonl
