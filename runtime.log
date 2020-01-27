@@ -1897,3 +1897,18 @@
 [main] 2020/01/27 16:09:00 http resource fetched
 [main] 2020/01/27 16:10:00 fetching http resource
 [main] 2020/01/27 16:10:00 http resource fetched
+[main] 2020/01/27 16:11:00 fetching http resource
+[main] 2020/01/27 16:11:00 http resource fetched
+[main] 2020/01/27 16:11:00 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/27 16:12:00 fetching http resource
+[main] 2020/01/27 16:12:00 http resource fetched
+[main] 2020/01/27 16:13:00 fetching http resource
+[main] 2020/01/27 16:13:00 http resource fetched
+[main] 2020/01/27 16:13:00 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/27 16:14:00 fetching http resource
+[main] 2020/01/27 16:14:00 http resource fetched
+[main] 2020/01/27 16:14:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 16:15:00 fetching http resource
+[main] 2020/01/27 16:15:00 http resource fetched
+[main] 2020/01/27 16:15:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 16:15:00 successfully saved data to: data/getTimelineService.jsonl
