@@ -1012,3 +1012,6 @@
 [main] 2020/01/27 10:33:00 http resource fetched
 [main] 2020/01/27 10:33:00 successfully saved data to: data/getWikiList.jsonl
 [main] 2020/01/27 10:33:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 10:34:00 fetching http resource
+[main] 2020/01/27 10:34:00 http resource fetched
+[main] 2020/01/27 10:34:00 successfully saved data to: data/getWikiList.jsonl
