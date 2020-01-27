@@ -877,3 +877,7 @@
 [main] 2020/01/27 09:48:00 fetching http resource
 [main] 2020/01/27 09:48:00 http resource fetched
 [main] 2020/01/27 09:48:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 09:49:00 fetching http resource
+[main] 2020/01/27 09:49:00 http resource fetched
+[main] 2020/01/27 09:49:00 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/27 09:49:00 successfully saved data to: data/getPV.jsonl
