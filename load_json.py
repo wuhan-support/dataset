@@ -35,7 +35,7 @@ def load_response():
         return load_response()
 
 
-def load_json(file_name='./jsons/latest.json'):
+def load_json(file_name='./epidemics/latest.json'):
     with open(file_name, 'r+') as f:
         return json.load(f)
 
@@ -102,8 +102,8 @@ class Data(object):
             self.on_update()
 
     def on_update(self):
-        write_json('./jsons/{}.json'.format(self.time_stamp), self.response)
-        write_json('./jsons/latest.json', self.response)
+        write_json('./epidemics/{}.json'.format(self.time_stamp), self.response)
+        write_json('./epidemics/latest.json', self.response)
         for func in self.on_updates:
             try:
                 func()
