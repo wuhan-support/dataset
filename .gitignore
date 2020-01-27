@@ -2,3 +2,4 @@
 .DS_Store
 logs/*
 *.pyc
+nohup.out
