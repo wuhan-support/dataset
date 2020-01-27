@@ -1831,3 +1831,15 @@
 [main] 2020/01/27 15:39:00 http resource fetched
 [main] 2020/01/27 15:40:00 fetching http resource
 [main] 2020/01/27 15:40:00 http resource fetched
+[main] 2020/01/27 15:41:00 fetching http resource
+[main] 2020/01/27 15:41:00 http resource fetched
+[main] 2020/01/27 15:42:00 fetching http resource
+[main] 2020/01/27 15:42:00 http resource fetched
+[main] 2020/01/27 15:42:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 15:43:00 fetching http resource
+[main] 2020/01/27 15:43:00 http resource fetched
+[main] 2020/01/27 15:43:00 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/27 15:44:00 fetching http resource
+[main] 2020/01/27 15:44:00 http resource fetched
+[main] 2020/01/27 15:45:00 fetching http resource
+[main] 2020/01/27 15:45:00 http resource fetched
