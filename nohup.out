@@ -268,3 +268,5 @@ data/getWikiList.jsonl
 data/getPV.jsonl
 data/getAreaStat.jsonl
 data/getTimelineService.jsonl
+data/getAreaStat.jsonl
+data/getWikiList.jsonl
