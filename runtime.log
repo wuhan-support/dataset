@@ -2093,3 +2093,20 @@
 [main] 2020/01/27 17:29:00 http resource fetched
 [main] 2020/01/27 17:30:00 fetching http resource
 [main] 2020/01/27 17:30:00 http resource fetched
+[main] 2020/01/27 17:31:00 fetching http resource
+[main] 2020/01/27 17:31:00 http resource fetched
+[main] 2020/01/27 17:31:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 17:31:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 17:32:00 fetching http resource
+[main] 2020/01/27 17:32:00 http resource fetched
+[main] 2020/01/27 17:32:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 17:33:00 fetching http resource
+[main] 2020/01/27 17:33:00 http resource fetched
+[main] 2020/01/27 17:33:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 17:34:00 fetching http resource
+[main] 2020/01/27 17:34:00 http resource fetched
+[main] 2020/01/27 17:34:00 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/27 17:34:00 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/27 17:35:00 fetching http resource
+[main] 2020/01/27 17:35:00 http resource fetched
+[main] 2020/01/27 17:35:00 successfully saved data to: data/getPV.jsonl
