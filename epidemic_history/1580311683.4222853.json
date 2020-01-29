@@ -1100,23 +1100,9 @@
             "suspected": 0
           },
           {
-            "cityName": "\u897f\u57ce",
-            "confirmed": 12,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
             "cityName": "\u5916\u5730\u6765\u4eac\u4eba\u5458",
             "confirmed": 11,
             "cured": 2,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u4e30\u53f0",
-            "confirmed": 10,
-            "cured": 0,
             "dead": 0,
             "suspected": 0
           },
@@ -1128,6 +1114,13 @@
             "suspected": 0
           },
           {
+            "cityName": "\u897f\u57ce",
+            "confirmed": 9,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
             "cityName": "\u660c\u5e73",
             "confirmed": 8,
             "cured": 0,
@@ -1135,8 +1128,15 @@
             "suspected": 0
           },
           {
-            "cityName": "\u901a\u5dde",
+            "cityName": "\u4e30\u53f0",
             "confirmed": 8,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
+            "cityName": "\u901a\u5dde",
+            "confirmed": 7,
             "cured": 0,
             "dead": 0,
             "suspected": 0
