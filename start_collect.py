@@ -6,10 +6,13 @@ from log_support import LogSupport
 
 def start_pull(branch_name):
     ls.logging.info("start pull...")
-    os.system("git add .")
-    os.system("git commit -m 'update data'")
-    os.system("git push -u origin {}".format(branch_name))
-    ls.logging.info("pull finished")
+    try:
+        os.system("git add .")
+        os.system("git commit -m 'update data'")
+        os.system("git push -u origin {}".format(branch_name))
+        ls.logging.info("pull finished")
+    except BaseException as e:
+        ls.logging.exception(e)
     time.sleep(60 * 10)
 
 if __name__=='__main__':
