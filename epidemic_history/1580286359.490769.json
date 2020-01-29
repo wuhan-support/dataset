@@ -222,13 +222,6 @@
       {
         "cities": [
           {
-            "cityName": "\u6df1\u5733",
-            "confirmed": 80,
-            "cured": 4,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
             "cityName": "\u5e7f\u5dde",
             "confirmed": 63,
             "cured": 0,
@@ -236,22 +229,22 @@
             "suspected": 0
           },
           {
-            "cityName": "\u4f5b\u5c71",
-            "confirmed": 21,
-            "cured": 0,
+            "cityName": "\u6df1\u5733",
+            "confirmed": 63,
+            "cured": 4,
             "dead": 0,
             "suspected": 0
           },
           {
-            "cityName": "\u73e0\u6d77",
+            "cityName": "\u4f5b\u5c71",
             "confirmed": 18,
             "cured": 0,
             "dead": 0,
             "suspected": 0
           },
           {
-            "cityName": "\u4e2d\u5c71",
-            "confirmed": 13,
+            "cityName": "\u73e0\u6d77",
+            "confirmed": 14,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -264,6 +257,13 @@
             "suspected": 0
           },
           {
+            "cityName": "\u4e2d\u5c71",
+            "confirmed": 12,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
             "cityName": "\u9633\u6c5f",
             "confirmed": 10,
             "cured": 0,
@@ -272,14 +272,7 @@
           },
           {
             "cityName": "\u6e5b\u6c5f",
-            "confirmed": 9,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u6c55\u5934",
-            "confirmed": 8,
+            "confirmed": 7,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -293,6 +286,13 @@
           },
           {
             "cityName": "\u6e05\u8fdc",
+            "confirmed": 6,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
+            "cityName": "\u6c55\u5934",
             "confirmed": 6,
             "cured": 0,
             "dead": 0,
@@ -328,7 +328,7 @@
           },
           {
             "cityName": "\u8302\u540d",
-            "confirmed": 3,
+            "confirmed": 2,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -342,13 +342,6 @@
           },
           {
             "cityName": "\u6cb3\u6e90",
-            "confirmed": 1,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u6c5f\u95e8",
             "confirmed": 1,
             "cured": 0,
             "dead": 0,
