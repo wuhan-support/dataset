@@ -138,6 +138,13 @@ class City(object):
         self.cured = city_stat['cured']
         self.dead = city_stat['dead']
 
+def start_load_json():
+    data = Data(p)
+    while True:
+        time.sleep(45 + 30 * random.random())
+        response = load_response()
+        if response['data']['listByArea'] != data.response['data']['listByArea']:
+            data.update()
 
 if __name__ == "__main__":
     data = Data(p)
