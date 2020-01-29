@@ -1332,22 +1332,8 @@
             "suspected": 0
           },
           {
-            "cityName": "\u5927\u5174",
-            "confirmed": 10,
-            "cured": 2,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
             "cityName": "\u897f\u57ce",
             "confirmed": 9,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u660c\u5e73",
-            "confirmed": 8,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -1360,9 +1346,23 @@
             "suspected": 0
           },
           {
+            "cityName": "\u660c\u5e73",
+            "confirmed": 7,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
             "cityName": "\u901a\u5dde",
             "confirmed": 7,
             "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
+            "cityName": "\u5927\u5174",
+            "confirmed": 7,
+            "cured": 2,
             "dead": 0,
             "suspected": 0
           },
@@ -1383,13 +1383,6 @@
           {
             "cityName": "\u4e1c\u57ce",
             "confirmed": 2,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u95e8\u5934\u6c9f",
-            "confirmed": 1,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -3337,19 +3330,6 @@
       },
       {
         "comment": "",
-        "confirmed": 3,
-        "createTime": 1580027795000,
-        "cured": 0,
-        "dead": 0,
-        "id": "10",
-        "modifyTime": 1580275132000,
-        "name": "\u52a0\u62ff\u5927",
-        "shortName": "",
-        "suspected": 0,
-        "tags": ""
-      },
-      {
-        "comment": "",
         "confirmed": 2,
         "createTime": 1580027751000,
         "cured": 0,
@@ -3370,6 +3350,19 @@
         "id": "10",
         "modifyTime": 1580027764000,
         "name": "\u5c3c\u6cca\u5c14",
+        "shortName": "",
+        "suspected": 0,
+        "tags": ""
+      },
+      {
+        "comment": "",
+        "confirmed": 1,
+        "createTime": 1580027795000,
+        "cured": 0,
+        "dead": 0,
+        "id": "10",
+        "modifyTime": 1580027795000,
+        "name": "\u52a0\u62ff\u5927",
         "shortName": "",
         "suspected": 0,
         "tags": ""
@@ -3411,7 +3404,7 @@
     "source": "https://3g.dxy.cn/newh5/view/pneumonia",
     "statistics": {
       "abroadRemark": "",
-      "confirmedCount": 6016,
+      "confirmedCount": 6005,
       "countRemark": "",
       "createTime": 1579537899000,
       "curedCount": 108,
@@ -3422,7 +3415,7 @@
       "id": 1,
       "imgUrl": "https://img1.dxycdn.com/2020/0123/733/3392575782185696736-73.jpg",
       "infectSource": "\u91ce\u751f\u52a8\u7269\uff0c\u53ef\u80fd\u4e3a\u4e2d\u534e\u83ca\u5934\u8760",
-      "modifyTime": 1580275102000,
+      "modifyTime": 1580274731000,
       "passWay": "\u7ecf\u547c\u5438\u9053\u98de\u6cab\u4f20\u64ad\uff0c\u4ea6\u53ef\u901a\u8fc7\u63a5\u89e6\u4f20\u64ad",
       "remark1": "\u6613\u611f\u4eba\u7fa4: \u4eba\u7fa4\u666e\u904d\u6613\u611f\u3002\u8001\u5e74\u4eba\u53ca\u6709\u57fa\u7840\u75be\u75c5\u8005\u611f\u67d3\u540e\u75c5\u60c5\u8f83\u91cd\uff0c\u513f\u7ae5\u53ca\u5a74\u5e7c\u513f\u4e5f\u6709\u53d1\u75c5",
       "remark2": "\u6f5c\u4f0f\u671f: \u4e00\u822c\u4e3a 3~7 \u5929\uff0c\u6700\u957f\u4e0d\u8d85\u8fc7 14 \u5929\uff0c\u6f5c\u4f0f\u671f\u5185\u5b58\u5728\u4f20\u67d3\u6027",
