@@ -957,28 +957,21 @@
         "cities": [
           {
             "cityName": "\u9752\u5c9b",
-            "confirmed": 17,
+            "confirmed": 15,
             "cured": 1,
             "dead": 0,
             "suspected": 0
           },
           {
             "cityName": "\u4e34\u6c82",
-            "confirmed": 16,
+            "confirmed": 15,
             "cured": 0,
             "dead": 0,
             "suspected": 0
           },
           {
             "cityName": "\u5a01\u6d77",
-            "confirmed": 12,
-            "cured": 0,
-            "dead": 0,
-            "suspected": 0
-          },
-          {
-            "cityName": "\u70df\u53f0",
-            "confirmed": 12,
+            "confirmed": 11,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -998,6 +991,13 @@
             "suspected": 0
           },
           {
+            "cityName": "\u70df\u53f0",
+            "confirmed": 10,
+            "cured": 0,
+            "dead": 0,
+            "suspected": 0
+          },
+          {
             "cityName": "\u67a3\u5e84",
             "confirmed": 8,
             "cured": 0,
@@ -1006,7 +1006,7 @@
           },
           {
             "cityName": "\u65e5\u7167",
-            "confirmed": 8,
+            "confirmed": 7,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -1020,7 +1020,7 @@
           },
           {
             "cityName": "\u6ee8\u5dde",
-            "confirmed": 7,
+            "confirmed": 6,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -1048,7 +1048,7 @@
           },
           {
             "cityName": "\u804a\u57ce",
-            "confirmed": 4,
+            "confirmed": 3,
             "cured": 0,
             "dead": 0,
             "suspected": 0
@@ -3523,6 +3523,19 @@
         "sourceUrl": "http://m.weibo.cn/2656274875/4466056711851472",
         "summary": "1\u670828\u65e512\u65f6\u81f329\u65e512\u65f6\uff0c\u5317\u4eac\u5e02\u65b0\u589e11\u4f8b\u65b0\u578b\u51a0\u72b6\u75c5\u6bd2\u611f\u67d3\u7684\u80ba\u708e\u75c5\u4f8b\uff0c7\u4f8b\u6709\u6e56\u5317\u53ca\u5176\u4ed6\u7701\u4efd\u63a5\u89e6\u53f2\uff0c7\u4f8b\u4e3a\u786e\u8bca\u75c5\u4f8b\u7684\u5bc6\u5207\u63a5\u89e6\u8005\uff0c1\u4f8b\u5c1a\u672a\u5b8c\u6210\u6d41\u884c\u75c5\u5b66\u8c03\u67e5\uff0c\u5176\u4e2d4\u4f8b\u65e2\u6709\u6e56\u5317\u63a5\u89e6\u53f2\u53c8\u662f\u786e\u8bca\u75c5\u4f8b\u7684\u5bc6\u5207\u63a5\u89e6\u8005\u3002\u5747\u5df2\u9001\u81f3\u5e02\u7ea7\u5b9a\u70b9\u533b\u7597\u673a\u6784\u8fdb\u884c\u6551\u6cbb\u3002\u622a\u81f31\u670829\u65e512\u65f6\uff0c\u5317\u4eac\u5e02\u7d2f\u8ba1\u786e\u8bca\u75c5\u4f8b102\u4f8b\u3002\u5176\u4e2d\u4e1c\u57ce\u533a2\u4f8b\u3001\u897f\u57ce\u533a9\u4f8b\u3001\u671d\u9633\u533a19\u4f8b\u3001\u6d77\u6dc0\u533a23\u4f8b\u3001\u4e30\u53f0\u533a8\u4f8b\u3001\u77f3\u666f\u5c71\u533a2\u4f8b\u3001\u95e8\u5934\u6c9f1\u4f8b\u3001\u901a\u5dde\u533a7\u4f8b\u3001\u987a\u4e49\u533a2\u4f8b\u3001\u5927\u5174\u533a10\u4f8b\u3001\u660c\u5e73\u533a8\u4f8b\uff0c\u5916\u5730\u6765\u4eac\u4eba\u545811\u4f8b\u3002",
         "title": "\u5317\u4eac\u65b0\u589e\u786e\u8bca 11 \u4f8b\uff0c\u7d2f\u8ba1 102 \u4f8b"
+      },
+      {
+        "createTime": 1580274318000,
+        "id": 787,
+        "infoSource": "\u592e\u89c6\u65b0\u95fb",
+        "modifyTime": 1580274318000,
+        "provinceId": "100",
+        "provinceName": "\u5168\u56fd",
+        "pubDate": 1580273845000,
+        "pubDateStr": "2\u5c0f\u65f6\u524d",
+        "sourceUrl": "http://m.weibo.cn/2656274875/4466054560345409",
+        "summary": "\u65b0\u578b\u80ba\u708e\u786e\u8bca\u75c5\u4f8b\u7684\u5bc6\u5207\u63a5\u89e6\u8005\uff0c\u5e94\u4ece\u548c\u75c5\u4eba\u63a5\u89e6\u7684\u6700\u540e\u4e00\u5929\u8d77\u91c7\u53d6\u533b\u5b66\u89c2\u5bdf14\u5929\u3002\u5728\u5bb6\u89c2\u5bdf\u671f\u95f4\uff0c\u9632\u62a4\u5343\u4e07\u4e0d\u80fd\u6389\u4ee5\u8f7b\u5fc3\uff01\u4e86\u89e3\u75c5\u60c5\u89c2\u5bdf\u548c\u62a4\u7406\u8981\u70b9\uff0c\u5e0c\u671b\u4f60\u7528\u4e0d\u5230\uff0c\u4f46\u4e00\u5b9a\u8981\u77e5\u9053\uff01 \n",
+        "title": "\u5982\u4f55\u6b63\u786e\u5c45\u5bb6\u533b\u5b66\u89c2\u5bdf"
       },
       {
         "createTime": 1580279959000,
