@@ -2195,3 +2195,72 @@
 [main] 2020/01/27 18:12:00 fetching http resource
 [main] 2020/01/27 18:12:01 http resource fetched
 [main] 2020/01/27 18:12:33 failed to initialize goquery document: read tcp 10.170.0.3:58424->121.43.212.200:443: read: connection reset by peer
+[main] 2020/01/31 06:53:32 fetching http resource
+[main] 2020/01/31 06:53:33 http resource fetched
+[main] 2020/01/31 06:53:33 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:33 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 06:53:33 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:33 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/31 06:53:34 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:34 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 06:53:41 fetching http resource
+[main] 2020/01/31 06:53:41 http resource fetched
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 06:53:41 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:41 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 06:53:52 fetching http resource
+[main] 2020/01/31 06:53:53 http resource fetched
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getEntries.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getWikiList.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 06:53:53 (cache) first time running the app. saving both content and cache
+[main] 2020/01/31 06:53:53 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 06:54:52 fetching http resource
+[main] 2020/01/31 06:54:52 http resource fetched
+[main] 2020/01/31 06:54:52 successfully saved data to: data/getPV.jsonl

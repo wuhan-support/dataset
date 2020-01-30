@@ -530,3 +530,14 @@ main.get()
 main.main()
 	/home/galvingaoper/go/src/github.com/wuhan-support/dataset/dxy_scrape.go:161 +0x3fb
 exit status 2
+data/getEntries.jsonl
+data/getAreaStat.jsonl
+data/getIndexRumorList.jsonl
+data/getWikiList.jsonl
+data/getIndexRecommendList.jsonl
+data/getPV.jsonl
+data/getListByCountryTypeService2.jsonl
+data/getTimelineService.jsonl
+data/getStatisticsService.jsonl
+data/getListByCountryTypeService1.jsonl
+data/getPV.jsonl
