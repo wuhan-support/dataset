@@ -941,3 +941,17 @@ data/getTimelineService.jsonl
 data/getTimelineService.jsonl
 data/getPV.jsonl
 data/getTimelineService.jsonl
+data/getTimelineService.jsonl
+data/getAreaStat.jsonl
+data/getPV.jsonl
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x48 pc=0x6410b9]
+
+goroutine 1 [running]:
+main.parse(0x0)
+	/home/galvingaoper/go/src/github.com/wuhan-support/dataset/dxy_scrape.go:58 +0x59
+main.get()
+	/home/galvingaoper/go/src/github.com/wuhan-support/dataset/dxy_scrape.go:53 +0x132
+main.main()
+	/home/galvingaoper/go/src/github.com/wuhan-support/dataset/dxy_scrape.go:161 +0x3fb
+exit status 2

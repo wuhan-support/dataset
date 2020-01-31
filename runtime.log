@@ -4294,3 +4294,15 @@
 [main] 2020/01/31 20:28:53 http resource fetched
 [main] 2020/01/31 20:29:52 fetching http resource
 [main] 2020/01/31 20:29:52 http resource fetched
+[main] 2020/01/31 20:30:52 fetching http resource
+[main] 2020/01/31 20:30:52 http resource fetched
+[main] 2020/01/31 20:31:52 fetching http resource
+[main] 2020/01/31 20:31:52 http resource fetched
+[main] 2020/01/31 20:31:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 20:32:52 fetching http resource
+[main] 2020/01/31 20:32:52 http resource fetched
+[main] 2020/01/31 20:32:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 20:32:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 20:33:52 fetching http resource
+[main] 2020/01/31 20:34:52 failed to fetch http resource: Get https://3g.dxy.cn/newh5/view/pneumonia: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+[main] 2020/01/31 20:34:52 http resource fetched
