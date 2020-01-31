@@ -784,3 +784,8 @@ data/getTimelineService.jsonl
 data/getPV.jsonl
 data/getIndexRumorList.jsonl
 data/getListByCountryTypeService2.jsonl
+data/getAreaStat.jsonl
+data/getListByCountryTypeService2.jsonl
+data/getAreaStat.jsonl
+data/getPV.jsonl
+data/getTimelineService.jsonl
