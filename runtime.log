@@ -3225,3 +3225,16 @@
 [main] 2020/01/31 13:08:52 http resource fetched
 [main] 2020/01/31 13:09:52 fetching http resource
 [main] 2020/01/31 13:09:52 http resource fetched
+[main] 2020/01/31 13:10:52 fetching http resource
+[main] 2020/01/31 13:10:52 http resource fetched
+[main] 2020/01/31 13:10:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 13:10:52 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 13:10:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 13:11:52 fetching http resource
+[main] 2020/01/31 13:11:53 http resource fetched
+[main] 2020/01/31 13:12:52 fetching http resource
+[main] 2020/01/31 13:12:52 http resource fetched
+[main] 2020/01/31 13:13:52 fetching http resource
+[main] 2020/01/31 13:13:52 http resource fetched
+[main] 2020/01/31 13:14:52 fetching http resource
+[main] 2020/01/31 13:14:52 http resource fetched
