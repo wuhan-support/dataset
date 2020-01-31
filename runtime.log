@@ -3341,3 +3341,17 @@
 [main] 2020/01/31 13:53:52 successfully saved data to: data/getAreaStat.jsonl
 [main] 2020/01/31 13:54:52 fetching http resource
 [main] 2020/01/31 13:54:52 http resource fetched
+[main] 2020/01/31 13:55:52 fetching http resource
+[main] 2020/01/31 13:55:52 http resource fetched
+[main] 2020/01/31 13:56:52 fetching http resource
+[main] 2020/01/31 13:56:52 http resource fetched
+[main] 2020/01/31 13:56:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 13:57:52 fetching http resource
+[main] 2020/01/31 13:57:52 http resource fetched
+[main] 2020/01/31 13:57:52 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 13:57:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 13:58:52 fetching http resource
+[main] 2020/01/31 13:58:52 http resource fetched
+[main] 2020/01/31 13:58:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 13:59:52 fetching http resource
+[main] 2020/01/31 13:59:52 http resource fetched
