@@ -2846,3 +2846,16 @@
 [main] 2020/01/31 10:38:52 http resource fetched
 [main] 2020/01/31 10:39:52 fetching http resource
 [main] 2020/01/31 10:39:52 http resource fetched
+[main] 2020/01/31 10:40:52 fetching http resource
+[main] 2020/01/31 10:40:52 http resource fetched
+[main] 2020/01/31 10:41:52 fetching http resource
+[main] 2020/01/31 10:41:52 http resource fetched
+[main] 2020/01/31 10:41:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 10:41:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 10:42:52 fetching http resource
+[main] 2020/01/31 10:42:52 http resource fetched
+[main] 2020/01/31 10:42:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 10:43:52 fetching http resource
+[main] 2020/01/31 10:43:52 http resource fetched
+[main] 2020/01/31 10:44:52 fetching http resource
+[main] 2020/01/31 10:44:52 http resource fetched
