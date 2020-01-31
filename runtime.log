@@ -3990,3 +3990,17 @@
 [main] 2020/01/31 18:18:52 http resource fetched
 [main] 2020/01/31 18:19:52 fetching http resource
 [main] 2020/01/31 18:19:52 http resource fetched
+[main] 2020/01/31 18:20:52 fetching http resource
+[main] 2020/01/31 18:20:52 http resource fetched
+[main] 2020/01/31 18:20:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:21:52 fetching http resource
+[main] 2020/01/31 18:21:52 http resource fetched
+[main] 2020/01/31 18:21:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 18:21:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:22:52 fetching http resource
+[main] 2020/01/31 18:22:52 http resource fetched
+[main] 2020/01/31 18:22:52 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 18:23:52 fetching http resource
+[main] 2020/01/31 18:23:52 http resource fetched
+[main] 2020/01/31 18:24:52 fetching http resource
+[main] 2020/01/31 18:24:52 http resource fetched
