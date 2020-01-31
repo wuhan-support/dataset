@@ -3934,3 +3934,15 @@
 [main] 2020/01/31 17:53:52 successfully saved data to: data/getTimelineService.jsonl
 [main] 2020/01/31 17:54:52 fetching http resource
 [main] 2020/01/31 17:54:52 http resource fetched
+[main] 2020/01/31 17:55:52 fetching http resource
+[main] 2020/01/31 17:55:52 http resource fetched
+[main] 2020/01/31 17:56:52 fetching http resource
+[main] 2020/01/31 17:56:52 http resource fetched
+[main] 2020/01/31 17:56:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 17:57:52 fetching http resource
+[main] 2020/01/31 17:57:52 http resource fetched
+[main] 2020/01/31 17:57:52 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 17:58:52 fetching http resource
+[main] 2020/01/31 17:58:53 http resource fetched
+[main] 2020/01/31 17:59:52 fetching http resource
+[main] 2020/01/31 17:59:52 http resource fetched
