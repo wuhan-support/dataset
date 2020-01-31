@@ -3282,3 +3282,20 @@
 [main] 2020/01/31 13:33:52 successfully saved data to: data/getIndexRumorList.jsonl
 [main] 2020/01/31 13:34:52 fetching http resource
 [main] 2020/01/31 13:34:53 http resource fetched
+[main] 2020/01/31 13:35:52 fetching http resource
+[main] 2020/01/31 13:35:52 http resource fetched
+[main] 2020/01/31 13:35:52 successfully saved data to: data/getIndexRecommendList.jsonl
+[main] 2020/01/31 13:35:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 13:35:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 13:36:52 fetching http resource
+[main] 2020/01/31 13:36:52 http resource fetched
+[main] 2020/01/31 13:37:52 fetching http resource
+[main] 2020/01/31 13:37:52 http resource fetched
+[main] 2020/01/31 13:38:52 fetching http resource
+[main] 2020/01/31 13:38:52 http resource fetched
+[main] 2020/01/31 13:38:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 13:38:52 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 13:38:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 13:38:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 13:39:52 fetching http resource
+[main] 2020/01/31 13:39:52 http resource fetched
