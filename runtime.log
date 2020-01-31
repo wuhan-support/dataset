@@ -3495,3 +3495,15 @@
 [main] 2020/01/31 14:58:52 http resource fetched
 [main] 2020/01/31 14:59:52 fetching http resource
 [main] 2020/01/31 14:59:52 http resource fetched
+[main] 2020/01/31 15:00:52 fetching http resource
+[main] 2020/01/31 15:00:52 http resource fetched
+[main] 2020/01/31 15:00:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 15:01:52 fetching http resource
+[main] 2020/01/31 15:01:52 http resource fetched
+[main] 2020/01/31 15:02:52 fetching http resource
+[main] 2020/01/31 15:02:52 http resource fetched
+[main] 2020/01/31 15:03:52 fetching http resource
+[main] 2020/01/31 15:03:52 http resource fetched
+[main] 2020/01/31 15:04:52 fetching http resource
+[main] 2020/01/31 15:04:52 http resource fetched
+[main] 2020/01/31 15:04:52 successfully saved data to: data/getIndexRumorList.jsonl
