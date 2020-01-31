@@ -4085,3 +4085,16 @@
 [main] 2020/01/31 18:58:52 successfully saved data to: data/getStatisticsService.jsonl
 [main] 2020/01/31 18:59:52 fetching http resource
 [main] 2020/01/31 18:59:52 http resource fetched
+[main] 2020/01/31 19:00:52 fetching http resource
+[main] 2020/01/31 19:00:52 http resource fetched
+[main] 2020/01/31 19:01:52 fetching http resource
+[main] 2020/01/31 19:01:53 http resource fetched
+[main] 2020/01/31 19:01:53 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 19:02:52 fetching http resource
+[main] 2020/01/31 19:02:52 http resource fetched
+[main] 2020/01/31 19:02:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 19:03:52 fetching http resource
+[main] 2020/01/31 19:03:53 http resource fetched
+[main] 2020/01/31 19:04:52 fetching http resource
+[main] 2020/01/31 19:04:52 http resource fetched
+[main] 2020/01/31 19:04:52 successfully saved data to: data/getTimelineService.jsonl
