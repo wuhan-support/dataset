@@ -2807,3 +2807,17 @@
 [main] 2020/01/31 10:23:52 http resource fetched
 [main] 2020/01/31 10:24:52 fetching http resource
 [main] 2020/01/31 10:24:52 http resource fetched
+[main] 2020/01/31 10:25:52 fetching http resource
+[main] 2020/01/31 10:25:52 http resource fetched
+[main] 2020/01/31 10:25:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 10:26:52 fetching http resource
+[main] 2020/01/31 10:26:52 http resource fetched
+[main] 2020/01/31 10:26:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 10:26:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 10:27:52 fetching http resource
+[main] 2020/01/31 10:27:52 http resource fetched
+[main] 2020/01/31 10:27:52 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 10:28:52 fetching http resource
+[main] 2020/01/31 10:28:52 http resource fetched
+[main] 2020/01/31 10:29:52 fetching http resource
+[main] 2020/01/31 10:29:52 http resource fetched
