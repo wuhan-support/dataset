@@ -670,3 +670,6 @@ data/getPV.jsonl
 data/getStatisticsService.jsonl
 data/getAreaStat.jsonl
 data/getTimelineService.jsonl
+data/getTimelineService.jsonl
+data/getAreaStat.jsonl
+data/getPV.jsonl
