@@ -4039,3 +4039,17 @@
 [main] 2020/01/31 18:38:52 http resource fetched
 [main] 2020/01/31 18:39:52 fetching http resource
 [main] 2020/01/31 18:39:52 http resource fetched
+[main] 2020/01/31 18:40:52 fetching http resource
+[main] 2020/01/31 18:40:52 http resource fetched
+[main] 2020/01/31 18:40:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:41:52 fetching http resource
+[main] 2020/01/31 18:41:52 http resource fetched
+[main] 2020/01/31 18:41:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:42:52 fetching http resource
+[main] 2020/01/31 18:42:52 http resource fetched
+[main] 2020/01/31 18:42:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 18:42:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:43:52 fetching http resource
+[main] 2020/01/31 18:43:52 http resource fetched
+[main] 2020/01/31 18:44:52 fetching http resource
+[main] 2020/01/31 18:44:52 http resource fetched
