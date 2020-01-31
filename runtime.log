@@ -3162,3 +3162,14 @@
 [main] 2020/01/31 12:43:52 http resource fetched
 [main] 2020/01/31 12:44:52 fetching http resource
 [main] 2020/01/31 12:44:52 http resource fetched
+[main] 2020/01/31 12:45:52 fetching http resource
+[main] 2020/01/31 12:45:53 http resource fetched
+[main] 2020/01/31 12:46:52 fetching http resource
+[main] 2020/01/31 12:46:52 http resource fetched
+[main] 2020/01/31 12:47:52 fetching http resource
+[main] 2020/01/31 12:47:52 http resource fetched
+[main] 2020/01/31 12:48:52 fetching http resource
+[main] 2020/01/31 12:48:52 http resource fetched
+[main] 2020/01/31 12:48:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 12:49:52 fetching http resource
+[main] 2020/01/31 12:49:52 http resource fetched
