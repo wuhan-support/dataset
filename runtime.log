@@ -2912,3 +2912,21 @@
 [main] 2020/01/31 11:04:52 http resource fetched
 [main] 2020/01/31 11:04:52 successfully saved data to: data/getAreaStat.jsonl
 [main] 2020/01/31 11:04:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 11:05:52 fetching http resource
+[main] 2020/01/31 11:05:52 http resource fetched
+[main] 2020/01/31 11:05:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 11:05:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 11:06:52 fetching http resource
+[main] 2020/01/31 11:06:52 http resource fetched
+[main] 2020/01/31 11:06:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 11:06:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 11:07:52 fetching http resource
+[main] 2020/01/31 11:07:52 http resource fetched
+[main] 2020/01/31 11:07:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 11:08:52 fetching http resource
+[main] 2020/01/31 11:08:52 http resource fetched
+[main] 2020/01/31 11:08:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 11:09:52 fetching http resource
+[main] 2020/01/31 11:09:52 http resource fetched
+[main] 2020/01/31 11:09:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 11:09:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
