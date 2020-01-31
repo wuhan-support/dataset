@@ -4004,3 +4004,16 @@
 [main] 2020/01/31 18:23:52 http resource fetched
 [main] 2020/01/31 18:24:52 fetching http resource
 [main] 2020/01/31 18:24:52 http resource fetched
+[main] 2020/01/31 18:25:52 fetching http resource
+[main] 2020/01/31 18:25:52 http resource fetched
+[main] 2020/01/31 18:26:52 fetching http resource
+[main] 2020/01/31 18:26:52 http resource fetched
+[main] 2020/01/31 18:27:52 fetching http resource
+[main] 2020/01/31 18:27:52 http resource fetched
+[main] 2020/01/31 18:27:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:28:52 fetching http resource
+[main] 2020/01/31 18:28:52 http resource fetched
+[main] 2020/01/31 18:28:52 successfully saved data to: data/getTimelineService.jsonl
+[main] 2020/01/31 18:28:52 successfully saved data to: data/getListByCountryTypeService2.jsonl
+[main] 2020/01/31 18:29:52 fetching http resource
+[main] 2020/01/31 18:29:52 http resource fetched
