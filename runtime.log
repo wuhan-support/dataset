@@ -3101,3 +3101,16 @@
 [main] 2020/01/31 12:19:52 fetching http resource
 [main] 2020/01/31 12:19:52 http resource fetched
 [main] 2020/01/31 12:19:52 successfully saved data to: data/getPV.jsonl
+[main] 2020/01/31 12:20:52 fetching http resource
+[main] 2020/01/31 12:20:52 http resource fetched
+[main] 2020/01/31 12:20:52 successfully saved data to: data/getStatisticsService.jsonl
+[main] 2020/01/31 12:21:52 fetching http resource
+[main] 2020/01/31 12:21:52 http resource fetched
+[main] 2020/01/31 12:21:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 12:22:52 fetching http resource
+[main] 2020/01/31 12:22:52 http resource fetched
+[main] 2020/01/31 12:22:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 12:23:52 fetching http resource
+[main] 2020/01/31 12:23:52 http resource fetched
+[main] 2020/01/31 12:24:52 fetching http resource
+[main] 2020/01/31 12:24:52 http resource fetched
