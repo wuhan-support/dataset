@@ -3114,3 +3114,17 @@
 [main] 2020/01/31 12:23:52 http resource fetched
 [main] 2020/01/31 12:24:52 fetching http resource
 [main] 2020/01/31 12:24:52 http resource fetched
+[main] 2020/01/31 12:25:52 fetching http resource
+[main] 2020/01/31 12:25:52 http resource fetched
+[main] 2020/01/31 12:26:52 fetching http resource
+[main] 2020/01/31 12:26:52 http resource fetched
+[main] 2020/01/31 12:27:52 fetching http resource
+[main] 2020/01/31 12:27:52 http resource fetched
+[main] 2020/01/31 12:27:52 successfully saved data to: data/getAreaStat.jsonl
+[main] 2020/01/31 12:27:52 successfully saved data to: data/getListByCountryTypeService1.jsonl
+[main] 2020/01/31 12:28:52 fetching http resource
+[main] 2020/01/31 12:28:52 http resource fetched
+[main] 2020/01/31 12:29:52 fetching http resource
+[main] 2020/01/31 12:29:52 http resource fetched
+[main] 2020/01/31 12:29:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 12:29:52 successfully saved data to: data/getPV.jsonl
