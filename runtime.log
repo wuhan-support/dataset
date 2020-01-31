@@ -3355,3 +3355,15 @@
 [main] 2020/01/31 13:58:52 successfully saved data to: data/getPV.jsonl
 [main] 2020/01/31 13:59:52 fetching http resource
 [main] 2020/01/31 13:59:52 http resource fetched
+[main] 2020/01/31 14:00:52 fetching http resource
+[main] 2020/01/31 14:00:52 http resource fetched
+[main] 2020/01/31 14:01:52 fetching http resource
+[main] 2020/01/31 14:01:52 http resource fetched
+[main] 2020/01/31 14:01:52 successfully saved data to: data/getIndexRumorList.jsonl
+[main] 2020/01/31 14:02:52 fetching http resource
+[main] 2020/01/31 14:02:52 http resource fetched
+[main] 2020/01/31 14:03:52 fetching http resource
+[main] 2020/01/31 14:03:52 http resource fetched
+[main] 2020/01/31 14:04:52 fetching http resource
+[main] 2020/01/31 14:04:52 http resource fetched
+[main] 2020/01/31 14:04:52 successfully saved data to: data/getListByCountryTypeService2.jsonl
