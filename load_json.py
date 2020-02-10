@@ -50,9 +50,9 @@ def write_json(file_name, js):
 
 def update():
     response = load_json()
-    latest_response = load_response()
     i = 0
     while True:
+        latest_response = load_response()
         if latest_response['data']['listByArea'] != response['data']['listByArea']:
             write_json('{}.json'.format(int(time.time())), latest_response)
             ls.logging.info('json updated at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
