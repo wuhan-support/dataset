@@ -38,7 +38,7 @@ def load_response():
         return load_response()
 
 
-def load_json(file_name='./epidemics/latest.json'):
+def load_json(file_name='./epidemic_history/latest.json'):
     with open(file_name, 'r+') as f:
         return json.load(f)
 
