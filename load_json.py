@@ -3,6 +3,7 @@ import random
 import time
 import requests
 from log_support import LogSupport
+import os
 
 # 初始化日志
 ls = LogSupport()
@@ -45,104 +46,26 @@ def write_json(file_name, js):
         json.dump(js, f, sort_keys=True, indent=2)
 
 
-class Data(object):
-    def __init__(self, *on_updates):
-        self.response = None
-        self.provinces = []
-        self.time_stamp = 0
-        self.suspect = 0
-        self.confirmed = 0
-        self.cured = 0
-        self.dead = 0
-        self.data_dict = {}
-        self.diff_dict = {}
-        self.on_updates = on_updates
-        self.update()
+def update():
+    response = load_json()
+    latest_response = load_response()
+    i = 0
+    while True:
+        if latest_response['data']['listByArea'] != response['data']['listByArea']:
+            write_json('{}.json'.format(int(time.time())), latest_response)
+            ls.logging.info('json updated at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+            response = latest_response
+            i += 1
+        if i % 10 == 0:
+            git_upload()
+            i = 0
 
-    def load_stat(self, area_stat):
-        return [Province(province_stat) for province_stat in area_stat]
-
-    def init(self):
-        try:
-            latest_response = load_response()
-            if self.response and latest_response['data']['listByArea'] == self.response['data']['listByArea']:
-                return False
-            else:
-                old_dict = self.data_dict
-                self.response = latest_response
-                self.provinces = self.load_stat(self.response['data']['listByArea'])
-                self.time_stamp = time.time()
-                self.suspect = 0
-                self.confirmed = 0
-                self.cured = 0
-                self.dead = 0
-                self.data_dict = {}
-                for province in self.provinces:
-                    self.suspect += province.suspect
-                    self.confirmed += province.confirmed
-                    self.cured += province.cured
-                    self.dead += province.dead
-                    self.data_dict[province.name] = \
-                        [province.suspect, province.confirmed, province.cured, province.dead]
-                    for city in province.cities:
-                        self.data_dict[city.name] = [city.suspect, city.confirmed, city.cured, city.dead]
-                self.diff_dict = {k: v for k, v in self.data_dict.items() if k not in old_dict or old_dict[k] != v}
-                ls.logging.info('data constructed')
-                return True
-        except Exception as e:
-            ls.logging.error('data construction failed')
-            ls.logging.exception(e)
-            time.sleep(15 + 10 * random.random())
-            self.init()
-
-    def update(self):
-        ret = self.init()
-        if ret:
-            ls.logging.info('data updated at {}'.format(self.time_stamp))
-            self.on_update()
-
-    def on_update(self):
-        write_json('./epidemic_history/{}.json'.format(self.time_stamp), self.response)
-        write_json('./epidemic_history/latest.json', self.response)
-        for func in self.on_updates:
-            try:
-                func()
-            except Exception as e:
-                ls.logging.error('calling {} failed'.format(func))
-                ls.logging.exception(e)
-
-
-def p():
-    print(0)
-
-class Province(object):
-    def __init__(self, province_stat):
-        self.name = province_stat['provinceName']
-        self.abbreviation = province_stat['provinceShortName']
-        self.suspect = province_stat['suspected']
-        self.confirmed = province_stat['confirmed']
-        self.cured = province_stat['cured']
-        self.dead = province_stat['dead']
-        self.cities = self.load_stat(province_stat['cities'])
-        self.comment = province_stat['comment']
-
-    def load_stat(self, province_stat_cities):
-        return [City(city_stat) for city_stat in province_stat_cities]
-
-
-class City(object):
-    def __init__(self, city_stat):
-        self.name = city_stat['cityName']
-        self.suspect = city_stat['suspected']
-        self.confirmed = city_stat['confirmed']
-        self.cured = city_stat['cured']
-        self.dead = city_stat['dead']
+def git_upload():
+    os.system('git add epidemic_history/')
+    os.system('git commit -m "update jsosn"')
+    os.system('git push')
+    ls.logging.info('jsons uploaded at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
 
 
 if __name__ == "__main__":
-    data = Data(p)
-    while True:
-        time.sleep(45 + 30 * random.random())
-        response = load_response()
-        if response['data']['listByArea'] != data.response['data']['listByArea']:
-            data.update()
+    update()
