@@ -58,9 +58,10 @@ def update():
             ls.logging.info('json updated at time {}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
             response = latest_response
             i += 1
-        if i % 10 == 0:
-            git_upload()
-            i = 0
+            if i % 10 == 0:
+                git_upload()
+                i = 0
+            continue
 
 def git_upload():
     os.system('git add epidemic_history/')
