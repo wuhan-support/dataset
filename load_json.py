@@ -52,6 +52,7 @@ def update():
     response = load_json()
     i = 0
     while True:
+        time.sleep(30 + 60 * random.random())
         latest_response = load_response()
         if latest_response['data']['listByArea'] != response['data']['listByArea']:
             write_json('epidemic_history/{}.json'.format(int(time.time())), latest_response)
@@ -62,6 +63,7 @@ def update():
             if i % 10 == 0:
                 git_upload()
                 i = 0
+            time.sleep(30 + 60 * random.random())
             continue
 
 def git_upload():
